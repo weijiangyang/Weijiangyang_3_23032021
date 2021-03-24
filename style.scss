@@ -100,7 +100,7 @@ header h1{
         font-size: 18px;
         line-height: 28px;
         margin:10px auto 18px;
-        width: 100%;
+        width: 90%;
         
     }
     .button-explore a{
@@ -129,6 +129,8 @@ div.fonctionnement{
         font-size: 28px;
         padding-bottom: 20px;
         padding-top:30px;
+        position:relative;
+        left:-10px;
     }
     div.choix-rest{
         background-color: #f6f6f6;
@@ -138,6 +140,7 @@ div.fonctionnement{
         height:60px;
         position:relative;
         margin:25px auto;
+        
         span{
             display:block;
             width: 25px;

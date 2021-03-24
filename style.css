@@ -1,0 +1,192 @@
+@font-face {
+  font-family: "shirikhand";
+  src: url(./font/Shrikhand-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-black";
+  src: url(./font/Roboto-Black.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-blackitalic";
+  src: url(./font/Roboto-BlackItalic.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-bold";
+  src: url(./font/Roboto-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-bolditalic";
+  src: url(./font/Roboto-BoldItalic.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-italic";
+  src: url(./font/Roboto-Italic.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-light";
+  src: url(./font/Roboto-Light.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-lightitalic";
+  src: url(./font/Roboto-LightItalic.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-medium";
+  src: url(./font/Roboto-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-mediumitalic";
+  src: url(./font/Roboto-MediumItalic.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-regular";
+  src: url(./font/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-thin";
+  src: url(./font/Roboto-Thin.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-thinitalic";
+  src: url(./font/Roboto-ThinItalic.ttf);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header h1 {
+  font-family: shrikhand;
+  width: 90%;
+  text-align: center;
+  font-size: 30px;
+  margin: 15px auto 5px;
+}
+
+.rechercher {
+  width: 90%;
+  background-color: #f6f6f6;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.rechercher .map {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 18px;
+  font-family: "roboto-medium";
+  background: -webkit-gradient(linear, left top, left bottom, from(#ECECEC), color-stop(2%), color-stop(#D0D0D0), color-stop(6%), to(#EAEAEA));
+  background: linear-gradient(180deg, #ECECEC, 2%, #D0D0D0, 6%, #EAEAEA);
+  margin-bottom: 45px;
+}
+
+.rechercher .map i {
+  margin-right: 10px;
+}
+
+.rechercher h2 {
+  font-family: 'roboto-bold';
+  font-size: 28px;
+  line-height: 35px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.rechercher p.desc {
+  font-family: 'Roboto-thin';
+  font-size: 18px;
+  line-height: 28px;
+  margin: 10px auto 18px;
+  width: 100%;
+}
+
+.rechercher .button-explore a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  padding: 20px;
+  font-family: 'roboto-regular';
+  font-size: 16px;
+  background: linear-gradient(170deg, #FF79DA, #9356DC);
+  color: white;
+  line-height: 16px;
+  border-radius: 28px;
+  margin-bottom: 30px;
+  -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+div.fonctionnement {
+  width: 85%;
+  height: 50px;
+  margin: 0 auto;
+}
+
+div.fonctionnement h2 {
+  font-family: 'Roboto-Bold';
+  font-size: 28px;
+  padding-bottom: 20px;
+  padding-top: 30px;
+}
+
+div.fonctionnement div.choix-rest, div.fonctionnement div.compose-menu, div.fonctionnement div.diguiste {
+  background-color: #f6f6f6;
+  -webkit-box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+          box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 60px;
+  position: relative;
+  margin: 25px auto;
+}
+
+div.fonctionnement div.choix-rest span, div.fonctionnement div.compose-menu span, div.fonctionnement div.diguiste span {
+  display: block;
+  width: 25px;
+  height: 25px;
+  background-color: #9356DC;
+  text-align: center;
+  line-height: 25px;
+  border-radius: 12.5px;
+  position: absolute;
+  left: -12.5px;
+  top: 17.5px;
+}
+
+div.fonctionnement div.choix-rest i, div.fonctionnement div.compose-menu i, div.fonctionnement div.diguiste i {
+  display: block;
+  position: absolute;
+  left: 32px;
+  top: 22px;
+  font-size: 22px;
+}
+
+div.fonctionnement div.choix-rest p, div.fonctionnement div.compose-menu p, div.fonctionnement div.diguiste p {
+  position: absolute;
+  left: 65px;
+  top: 22px;
+  font-family: 'roboto-medium';
+  font-size: 18px;
+}
+/*# sourceMappingURL=style.css.map */

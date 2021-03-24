@@ -1,0 +1,175 @@
+$color-primary:#9356DC;
+$color-secondary:#FF79DA;
+$color-tertiary:#99E2D0;
+@font-face{
+    font-family: "shirikhand";
+    src:url(./font/Shrikhand-Regular.ttf);
+
+}
+@font-face{
+    font-family:"Roboto-black";
+    src:url(./font/Roboto-Black.ttf);
+}
+@font-face{
+    font-family: "Roboto-blackitalic";
+    src:url(./font/Roboto-BlackItalic.ttf);
+}
+@font-face{
+    font-family: "Roboto-bold";
+    src:url(./font/Roboto-Bold.ttf)
+}
+@font-face{
+    font-family:"Roboto-bolditalic";
+    src:url(./font/Roboto-BoldItalic.ttf);
+}
+@font-face{
+    font-family: "Roboto-italic";
+    src:url(./font/Roboto-Italic.ttf)
+}
+@font-face{
+    font-family: "Roboto-light";
+    src:url(./font/Roboto-Light.ttf);
+}
+@font-face{
+    font-family:"Roboto-lightitalic";
+    src:url(./font/Roboto-LightItalic.ttf);
+}
+@font-face{
+    font-family: "Roboto-medium";
+    src:url(./font/Roboto-Medium.ttf);
+}
+@font-face{
+    font-family: "Roboto-mediumitalic";
+    src:url(./font/Roboto-MediumItalic.ttf);
+}
+@font-face{
+    font-family: "Roboto-regular";
+    src:url(./font/Roboto-Regular.ttf)
+}
+@font-face{
+    font-family: "Roboto-thin";
+    src:url(./font/Roboto-Thin.ttf)
+}
+@font-face{
+    font-family: "Roboto-thinitalic";
+    src:url(./font/Roboto-ThinItalic.ttf);
+}
+a{
+    text-decoration: none;
+    color:black;}
+
+header h1{
+    font-family: shrikhand;
+    width: 90%;
+    text-align: center;
+    font-size: 30px;
+    margin:15px auto 5px;
+}
+.rechercher{
+    width: 90%;
+    background-color: #f6f6f6;
+    text-align: center;
+    margin:0 auto;
+   .map{
+        display:flex;
+        justify-content: center;
+        padding-top:20px;
+        padding-bottom: 20px;
+        font-size: 18px;
+        
+        font-family: "roboto-medium";
+        
+      
+        i{
+            margin-right:10px;
+        }
+       
+         background: linear-gradient(180deg,#ECECEC,2%,#D0D0D0,6%,#EAEAEA);
+         margin-bottom:45px;
+          }
+    
+    h2{
+             font-family: 'roboto-bold';
+             font-size: 28px;
+             line-height: 35px;
+             width: 70%;
+             margin:0 auto;
+         }
+    p.desc{
+        font-family: 'Roboto-thin';
+        font-size: 18px;
+        line-height: 28px;
+        margin:10px auto 18px;
+        width: 100%;
+        
+    }
+    .button-explore a{
+        text-decoration: none;
+        color:black;
+        display:inline-block;
+        padding:20px;
+        font-family: 'roboto-regular';
+        font-size: 16px;
+        
+        background:linear-gradient(170deg,$color-secondary,$color-primary);
+        color:white;
+        line-height: 16px;
+        border-radius: 28px;
+        margin-bottom: 30px;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0 ,.3);
+    }
+}
+div.fonctionnement{
+    width: 85%;
+    height: 50px;
+    margin:0 auto;
+    
+    h2{
+        font-family: 'Roboto-Bold';
+        font-size: 28px;
+        padding-bottom: 20px;
+        padding-top:30px;
+    }
+    div.choix-rest{
+        background-color: #f6f6f6;
+        box-shadow: 3px 3px 6px rgba(0, 0, 0 ,.3);
+        border-radius: 15px;
+        display:flex;
+        height:60px;
+        position:relative;
+        margin:25px auto;
+        span{
+            display:block;
+            width: 25px;
+            height: 25px;
+            background-color:$color-primary;
+            text-align: center;
+            line-height: 25px;
+            border-radius: 12.5px;
+            position:absolute;
+            left:-12.5px;
+            top:17.5px;
+        }
+        i{
+            display:block;
+            position:absolute;
+            left:32px;
+            top:22px;
+            font-size: 22px;
+        }
+        p{
+            position:absolute;
+            left:65px;
+            top:22px;
+            font-family: 'roboto-medium';
+            font-size: 18px;
+        }
+     
+    }
+    div.compose-menu{
+        @extend div.choix-rest;
+    }
+    div.diguiste{
+        @extend div.choix-rest;
+    }
+    }

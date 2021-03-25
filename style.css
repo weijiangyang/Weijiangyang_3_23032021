@@ -264,9 +264,8 @@ div.restaurant fieldset figcaption span {
   position: absolute;
   top: 30px;
   right: 20px;
-  font-size: 30px;
+  font-size: 25px;
   color: red;
-  background-color: saddlebrown;
 }
 
 div.restaurant fieldset figcaption h3 {

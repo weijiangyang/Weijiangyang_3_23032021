@@ -1,6 +1,16 @@
 $color-primary:#9356DC;
 $color-secondary:#FF79DA;
 $color-tertiary:#99E2D0;
+@mixin heart{
+    .heart{
+        position:absolute;
+        width: 20px;
+        height: 20px;
+        background-color: rgb(211, 49, 31);
+        
+    }
+    
+}
 @font-face{
     font-family: "shirikhand";
     src:url(./font/Shrikhand-Regular.ttf);
@@ -237,9 +247,8 @@ div.fonctionnement{
                     position:absolute;
                     top:30px;
                     right:20px;
-                    font-size: 30px;
-                    color:red;
-                    background-color: saddlebrown;
+                    font-size: 25px;
+                   color:red;
                     
                     
                 }
@@ -299,4 +308,5 @@ div.fonctionnement{
         
         
     }
+
    

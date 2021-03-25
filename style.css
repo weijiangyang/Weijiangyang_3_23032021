@@ -252,6 +252,15 @@ div.restaurant fieldset figcaption {
   border-radius: 0 0 15px 15px;
   -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
           box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+div.restaurant fieldset figcaption span {
+  display: block;
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  font-size: 20px;
 }
 
 div.restaurant fieldset figcaption h3 {

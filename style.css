@@ -264,6 +264,10 @@ div.restaurant fieldset figcaption span {
   top: 20px;
   right: 20px;
   font-size: 30px;
+  background: linear-gradient(45deg, yellow, red);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 div.restaurant fieldset figcaption h3 {

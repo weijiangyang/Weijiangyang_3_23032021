@@ -1,16 +1,10 @@
 $color-primary:#9356DC;
 $color-secondary:#FF79DA;
 $color-tertiary:#99E2D0;
-@mixin heart{
-    .heart{
-        position:absolute;
-        width: 20px;
-        height: 20px;
-        background-color: rgb(211, 49, 31);
-        
-    }
+
     
-}
+    
+
 @font-face{
     font-family: "shirikhand";
     src:url(./font/Shrikhand-Regular.ttf);
@@ -200,6 +194,7 @@ div.fonctionnement{
        margin:0 auto;
        background-color: #f6f6f6;
        padding-bottom: 90px;
+       
        h2{
            width: 85%;
            margin:20px auto;
@@ -242,6 +237,7 @@ div.fonctionnement{
                 border-radius: 0 0 15px 15px;
                 box-shadow: 2px 2px 5px rgba(0, 0, 0 ,.3);
                 position:relative;
+                
                 span{
                     display:block;
                     position:absolute;

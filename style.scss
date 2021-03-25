@@ -57,7 +57,9 @@ $color-tertiary:#99E2D0;
 a{
     text-decoration: none;
     color:black;}
-
+body{
+    border-right:1px solid black;
+}
 header h1{
     font-family: shrikhand;
     width: 100%;
@@ -286,7 +288,8 @@ div.fonctionnement{
             font-size: 18px;
            li{
                line-height: 35px;
-               i{
+               i{display: inline-block;
+                width: 20px;
                    margin-right:16px;
                }
            }

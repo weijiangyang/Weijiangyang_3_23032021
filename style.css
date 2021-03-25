@@ -68,6 +68,10 @@ a {
   color: black;
 }
 
+body {
+  border-right: 1px solid black;
+}
+
 header h1 {
   font-family: shrikhand;
   width: 100%;
@@ -313,6 +317,8 @@ footer ul li {
 }
 
 footer ul li i {
+  display: inline-block;
+  width: 20px;
   margin-right: 16px;
 }
 /*# sourceMappingURL=style.css.map */

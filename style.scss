@@ -60,13 +60,13 @@ a{
 
 header h1{
     font-family: shrikhand;
-    width: 90%;
+    width: 100%;
     text-align: center;
     font-size: 30px;
     margin:15px auto 5px;
 }
 .rechercher{
-    width: 90%;
+    width: 100%;
     background-color: #f6f6f6;
     text-align: center;
     margin:0 auto;
@@ -184,9 +184,10 @@ div.fonctionnement{
     }
     }
     div.restaurant{
-       width: 90%;
+       width: 100%;
        margin:0 auto;
        background-color: #f6f6f6;
+       padding-bottom: 90px;
        h2{
            width: 85%;
            margin:20px auto;
@@ -248,12 +249,13 @@ div.fonctionnement{
         
     }
     footer{
-        width: 90%;
+        width: 100%;
         background-color: #353535;
         margin:0 auto;
         color:#fff;
-        margin-top:80px;
+        margin-top:0px;
         margin-bottom: 25px;
+        padding-bottom: 20px;
         a{
             color:#fff;
         }

@@ -70,14 +70,14 @@ a {
 
 header h1 {
   font-family: shrikhand;
-  width: 90%;
+  width: 100%;
   text-align: center;
   font-size: 30px;
   margin: 15px auto 5px;
 }
 
 .rechercher {
-  width: 90%;
+  width: 100%;
   background-color: #f6f6f6;
   text-align: center;
   margin: 0 auto;
@@ -198,9 +198,10 @@ div.fonctionnement div.choix-rest a, div.fonctionnement div.compose-menu a, div.
 }
 
 div.restaurant {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   background-color: #f6f6f6;
+  padding-bottom: 90px;
 }
 
 div.restaurant h2 {
@@ -269,12 +270,13 @@ div.restaurant fieldset figcaption p {
 }
 
 footer {
-  width: 90%;
+  width: 100%;
   background-color: #353535;
   margin: 0 auto;
   color: #fff;
-  margin-top: 80px;
+  margin-top: 0px;
   margin-bottom: 25px;
+  padding-bottom: 20px;
 }
 
 footer a {

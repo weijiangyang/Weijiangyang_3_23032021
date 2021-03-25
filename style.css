@@ -105,7 +105,7 @@ header h1 {
 
 .rechercher h2 {
   font-family: 'roboto-bold';
-  font-size: 28px;
+  font-size: 25px;
   line-height: 35px;
   width: 70%;
   margin: 0 auto;
@@ -146,7 +146,6 @@ div.fonctionnement h2 {
   padding-bottom: 20px;
   padding-top: 30px;
   position: relative;
-  left: -10px;
 }
 
 div.fonctionnement div.choix-rest, div.fonctionnement div.compose-menu, div.fonctionnement div.diguiste {
@@ -190,7 +189,7 @@ div.fonctionnement div.choix-rest p, div.fonctionnement div.compose-menu p, div.
   position: absolute;
   left: 65px;
   top: 22px;
-  font-family: 'roboto-medium';
+  font-family: 'roboto-bold';
   font-size: 18px;
 }
 
@@ -207,7 +206,9 @@ div.restaurant {
 div.restaurant h2 {
   width: 85%;
   margin: 20px auto;
-  padding-top: 30px;
+  padding-top: 35px;
+  font-family: 'Roboto-Bold';
+  font-size: 30px;
 }
 
 div.restaurant fieldset {
@@ -255,15 +256,52 @@ div.restaurant fieldset figcaption {
 div.restaurant fieldset figcaption h3 {
   text-indent: 5px;
   font-family: 'riboto-bold';
-  font-size: 14px;
+  font-size: 18px;
   line-height: 35px;
   padding-top: 10px;
 }
 
 div.restaurant fieldset figcaption p {
   font-family: 'riboto-regular';
-  font-size: 14px;
+  font-size: 18px;
   text-indent: 5px;
   padding-bottom: 15px;
+}
+
+footer {
+  width: 90%;
+  background-color: #353535;
+  margin: 0 auto;
+  color: #fff;
+  margin-top: 80px;
+  margin-bottom: 25px;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer h2 {
+  font-family: 'shirikhand';
+  font-size: 22px;
+  font-weight: 200;
+  padding: 25px 0;
+  margin: 0 auto;
+  width: 90%;
+}
+
+footer ul {
+  width: 90%;
+  margin: 0 auto;
+  font-family: 'riboto-medium';
+  font-size: 18px;
+}
+
+footer ul li {
+  line-height: 35px;
+}
+
+footer ul li i {
+  margin-right: 16px;
 }
 /*# sourceMappingURL=style.css.map */

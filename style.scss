@@ -90,7 +90,7 @@ header h1{
     
     h2{
              font-family: 'roboto-bold';
-             font-size: 28px;
+             font-size: 25px;
              line-height: 35px;
              width: 70%;
              margin:0 auto;
@@ -130,7 +130,7 @@ div.fonctionnement{
         padding-bottom: 20px;
         padding-top:30px;
         position:relative;
-        left:-10px;
+        
     }
     div.choix-rest{
         width: 90%;
@@ -168,7 +168,7 @@ div.fonctionnement{
             position:absolute;
             left:65px;
             top:22px;
-            font-family: 'roboto-medium';
+            font-family: 'roboto-bold';
             font-size: 18px;
         }
         a{
@@ -190,7 +190,9 @@ div.fonctionnement{
        h2{
            width: 85%;
            margin:20px auto;
-           padding-top:30px;
+           padding-top:35px;
+           font-family: 'Roboto-Bold';
+           font-size: 30px;
        }
        fieldset{
            width: 85%;
@@ -229,13 +231,13 @@ div.fonctionnement{
                 h3{
                     text-indent: 5px;
                     font-family: 'riboto-bold';
-                    font-size:14px;
+                    font-size:18px;
                     line-height: 35px;
                     padding-top:10px;
                 }
                 p{
                    font-family: 'riboto-regular'; 
-                   font-size:14px;
+                   font-size:18px;
                    text-indent:5px;
                    padding-bottom: 15px;
                 }
@@ -245,3 +247,39 @@ div.fonctionnement{
        }
         
     }
+    footer{
+        width: 90%;
+        background-color: #353535;
+        margin:0 auto;
+        color:#fff;
+        margin-top:80px;
+        margin-bottom: 25px;
+        a{
+            color:#fff;
+        }
+        
+        h2{
+            font-family: 'shirikhand';
+            font-size: 22px;
+            font-weight: 200;
+            padding:25px 0;
+            margin:0 auto;
+            width: 90%;
+            
+        }
+        ul{
+            width: 90%;
+            margin:0 auto;
+            font-family: 'riboto-medium';
+            font-size: 18px;
+           li{
+               line-height: 35px;
+               i{
+                   margin-right:16px;
+               }
+           }
+        }
+        
+        
+    }
+   

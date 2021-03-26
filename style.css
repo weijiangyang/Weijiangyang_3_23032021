@@ -259,15 +259,32 @@ div.restaurant fieldset figcaption {
   position: relative;
 }
 
-div.restaurant fieldset figcaption span {
+div.restaurant fieldset figcaption span i.vide {
   position: absolute;
   top: 20px;
   right: 20px;
-  font-size: 30px;
-  background: linear-gradient(45deg, yellow, red);
+  font-size: 35px;
+  color: grey;
+}
+
+div.restaurant fieldset figcaption span i.solid {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 35px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#FF79DA), to(#9356DC));
+  background: linear-gradient(bottom, #FF79DA, #9356DC);
+  background-position-y: 80px;
+  background-repeat: no-repeat;
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+div.restaurant fieldset figcaption span i.solid:hover {
+  background-position-y: 0;
 }
 
 div.restaurant fieldset figcaption h3 {
@@ -278,11 +295,16 @@ div.restaurant fieldset figcaption h3 {
   padding-top: 10px;
 }
 
+div.restaurant fieldset figcaption h3:first-letter {
+  text-transform: capitalize;
+}
+
 div.restaurant fieldset figcaption p {
   font-family: 'riboto-regular';
   font-size: 18px;
   text-indent: 5px;
   padding-bottom: 15px;
+  text-transform: capitalize;
 }
 
 footer {

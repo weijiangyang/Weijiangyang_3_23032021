@@ -118,11 +118,17 @@ header h1{
         font-size: 18px;
         
         background:linear-gradient(170deg,$color-secondary,$color-primary);
+        
         color:white;
         line-height: 16px;
         border-radius: 28px;
         margin-bottom: 30px;
         box-shadow: 3px 3px 5px rgba(0, 0, 0 ,.3);
+        &:hover{
+            background:linear-gradient(170deg,lighten($color-secondary,10),lighten($color-primary,10));
+            box-shadow: 3px 3px 5px rgba(0, 0, 0 ,.8);
+         
+        }
     }
 }
 div.fonctionnement{

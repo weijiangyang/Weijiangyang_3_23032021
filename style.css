@@ -138,6 +138,12 @@ header h1 {
           box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
 }
 
+.rechercher .button-explore a:hover {
+  background: linear-gradient(170deg, #fface8, #ae80e5);
+  -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8);
+          box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8);
+}
+
 div.fonctionnement {
   width: 85%;
   margin: 0 auto;

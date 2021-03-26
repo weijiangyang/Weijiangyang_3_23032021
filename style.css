@@ -125,11 +125,10 @@ header h1 {
 
 .rechercher .button-explore a {
   text-decoration: none;
-  color: black;
   display: inline-block;
   padding: 20px;
   font-family: 'roboto-regular';
-  font-size: 16px;
+  font-size: 18px;
   background: linear-gradient(170deg, #FF79DA, #9356DC);
   color: white;
   line-height: 16px;
@@ -272,8 +271,8 @@ div.restaurant fieldset figcaption span i.solid {
   top: 20px;
   right: 20px;
   font-size: 35px;
-  background: -webkit-gradient(linear, left bottom, left top, from(#FF79DA), to(#9356DC));
-  background: linear-gradient(bottom, #FF79DA, #9356DC);
+  background: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC));
+  background: linear-gradient(to bottom, #FF79DA, #9356DC);
   background-position-y: 80px;
   background-repeat: no-repeat;
   background-clip: text;

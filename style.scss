@@ -111,11 +111,11 @@ header h1{
     }
     .button-explore a{
         text-decoration: none;
-        color:black;
+        
         display:inline-block;
         padding:20px;
         font-family: 'roboto-regular';
-        font-size: 16px;
+        font-size: 18px;
         
         background:linear-gradient(170deg,$color-secondary,$color-primary);
         color:white;
@@ -250,7 +250,7 @@ div.fonctionnement{
                     top:20px;
                     right:20px;
                     font-size: 35px;
-                    background: linear-gradient(bottom,$color-secondary,$color-primary);
+                    background: linear-gradient(to bottom,$color-secondary,$color-primary);
                     background-position-y: 80px;
                     background-repeat: no-repeat;
                     background-clip: text;

@@ -356,7 +356,7 @@ footer ul li i {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: bisque;
+  background-color: #94a21a;
   width: 100%;
   height: 100%;
   -webkit-transform: scale(1);
@@ -379,8 +379,8 @@ footer ul li i {
   height: 80px;
   border-radius: 50%;
   border-top-color: #f36700;
-  -webkit-animation: rotate 2s ease-in-out alternate;
-          animation: rotate 2s ease-in-out alternate;
+  -webkit-animation: rotate 2s infinite ease-in-out alternate;
+          animation: rotate 2s infinite ease-in-out alternate;
 }
 
 @-webkit-keyframes rotate {

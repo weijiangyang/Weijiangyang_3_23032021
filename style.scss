@@ -334,7 +334,7 @@ div.fonctionnement{
     position:fixed;
     top:0;
     left:0;
-    background-color: bisque;
+    background-color: rgba(148, 162, 26, 1);
     width: 100%;
     height: 100%;
     transform:scale(1);
@@ -350,7 +350,7 @@ div.fonctionnement{
         height: 80px;
         border-radius: 50%;
         border-top-color:rgba(243,103,0,1);
-        animation:rotate 2s ease-in-out alternate;
+        animation:rotate 2s infinite ease-in-out alternate;
     }
     @keyframes rotate {
         0%{transform: rotate(0);}

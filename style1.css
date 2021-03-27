@@ -189,7 +189,6 @@ main .menu .entree .first, main .menu .plat .first, main .menu .dessert .first, 
   width: 97%;
   background-color: #fff;
   margin: 0 auto;
-  text-indent: 10px;
   padding-top: 15px;
   padding-bottom: 15px;
   margin-top: 20px;
@@ -204,11 +203,15 @@ main .menu .entree .first, main .menu .plat .first, main .menu .dessert .first, 
 main .menu .entree .first h4, main .menu .plat .first h4, main .menu .dessert .first h4, main .menu .entree .second h4, main .menu .plat .second h4, main .menu .dessert .second h4, main .menu .entree .third h4, main .menu .plat .third h4, main .menu .dessert .third h4, main .menu .entree .forth h4, main .menu .plat .forth h4, main .menu .dessert .forth h4 {
   font-family: "riboto-black";
   font-size: 16px;
+  width: 95%;
+  margin: 0 auto;
 }
 
 main .menu .entree .first p, main .menu .plat .first p, main .menu .dessert .first p, main .menu .entree .second p, main .menu .plat .second p, main .menu .dessert .second p, main .menu .entree .third p, main .menu .plat .third p, main .menu .dessert .third p, main .menu .entree .forth p, main .menu .plat .forth p, main .menu .dessert .forth p {
   font-family: "riboto-thin";
   font-size: 14px;
+  width: 95%;
+  margin: 0 auto;
 }
 
 main .menu .entree .first span, main .menu .plat .first span, main .menu .dessert .first span, main .menu .entree .second span, main .menu .plat .second span, main .menu .dessert .second span, main .menu .entree .third span, main .menu .plat .third span, main .menu .dessert .third span, main .menu .entree .forth span, main .menu .plat .forth span, main .menu .dessert .forth span {

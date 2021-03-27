@@ -144,7 +144,8 @@ main{
                 width: 97%;
                 background-color: #fff;
                 margin:0 auto;
-                text-indent: 10px;
+                
+                // text-indent: 10px;
                 padding-top:15px;
                 padding-bottom:15px;
                 margin-top: 20px;
@@ -156,11 +157,17 @@ main{
                 h4{
                     font-family: "riboto-black";
                     font-size:16px;
+                    width: 95%;
+                    margin:0 auto;
+                    
+                    
+                    
                 }
                 p{
                     font-family: "riboto-thin";
                     font-size:14px;
-
+                    width: 95%;
+                    margin:0 auto;
                 }
                 span{
                     display:block;

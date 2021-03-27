@@ -99,10 +99,11 @@ div.banniere-image img {
 
 main {
   width: 100%;
-  background-color: #f6f6f6;
+  background-color: green;
   position: relative;
   top: -65px;
   border-radius: 40px;
+  padding-bottom: 100px;
 }
 
 main h2 {
@@ -172,5 +173,60 @@ main .menu .entree .first span, main .menu .plat .first span, main .menu .desser
   right: 15px;
   font-size: 16px;
   font-family: "riboto-black";
+}
+
+main .button {
+  width: 45%;
+  height: 60px;
+  background-color: #FF79DA;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 60px;
+  border-radius: 40px;
+  font-family: "riboto-bold";
+  background: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC));
+  background: linear-gradient(180deg, #FF79DA, #9356DC);
+  color: white;
+  font-size: 18px;
+}
+
+footer {
+  width: 100%;
+  background-color: #353535;
+  margin: 0 auto;
+  color: #fff;
+  margin-top: 0px;
+  margin-bottom: 25px;
+  padding-bottom: 20px;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer h2 {
+  font-family: 'shirikhand';
+  font-size: 22px;
+  font-weight: 200;
+  padding: 25px 0;
+  margin: 0 auto;
+  width: 90%;
+}
+
+footer ul {
+  width: 90%;
+  margin: 0 auto;
+  font-family: 'riboto-medium';
+  font-size: 18px;
+}
+
+footer ul li {
+  line-height: 35px;
+}
+
+footer ul li i {
+  display: inline-block;
+  width: 20px;
+  margin-right: 16px;
 }
 /*# sourceMappingURL=style1.css.map */

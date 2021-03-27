@@ -89,10 +89,11 @@ div.banniere-image{
 main{
     width: 100%;
     
-    background-color:#f6f6f6;
+    background-color:green;
     position:relative;
     top:-65px;
     border-radius: 40px;
+    padding-bottom:100px;
     h2{
         font-family: 'shirikhand';
         font-size:25px;
@@ -166,9 +167,61 @@ main{
             .dessert{
                 @extend .entree;
             }
+            .button{
+                width: 45%;
+                height: 60px;
+                background-color:$color-secondary;
+                margin:0 auto;
+                text-align: center;
+                line-height: 60px;
+                border-radius: 40px;
+                font-family: "riboto-bold";
+                background:linear-gradient(180deg,$color-secondary,$color-primary);
+                color:white;
+                font-size: 18px;
+                
+
+            }
 
                 
         
         
 
+    }
+    footer{
+        width: 100%;
+        background-color: #353535;
+        margin:0 auto;
+        color:#fff;
+        margin-top:0px;
+        margin-bottom: 25px;
+        padding-bottom: 20px;
+        a{
+            color:#fff;
+        }
+        
+        h2{
+            font-family: 'shirikhand';
+            font-size: 22px;
+            font-weight: 200;
+            padding:25px 0;
+            margin:0 auto;
+            width: 90%;
+            
+        }
+        ul{
+            width: 90%;
+            margin:0 auto;
+            font-family: 'riboto-medium';
+            font-size: 18px;
+           li{
+               line-height: 35px;
+               i{display: inline-block;
+                width: 20px;
+                   margin-right:16px;
+               }
+           }
+        }
+        
+        
     }

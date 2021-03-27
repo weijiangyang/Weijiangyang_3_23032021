@@ -1,0 +1,171 @@
+@font-face {
+  font-family: "shirikhand";
+  src: url(./font/Shrikhand-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-black";
+  src: url(./font/Roboto-Black.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-blackitalic";
+  src: url(./font/Roboto-BlackItalic.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-bold";
+  src: url(./font/Roboto-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-bolditalic";
+  src: url(./font/Roboto-BoldItalic.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-italic";
+  src: url(./font/Roboto-Italic.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-light";
+  src: url(./font/Roboto-Light.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-lightitalic";
+  src: url(./font/Roboto-LightItalic.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-medium";
+  src: url(./font/Roboto-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-mediumitalic";
+  src: url(./font/Roboto-MediumItalic.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-regular";
+  src: url(./font/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-thin";
+  src: url(./font/Roboto-Thin.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-thinitalic";
+  src: url(./font/Roboto-ThinItalic.ttf);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  width: 100%;
+  position: relative;
+}
+
+header h1 {
+  font-family: "shirikhand";
+  font-size: 30px;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+
+header i {
+  display: block;
+  font-size: 20px;
+  left: 20px;
+  top: 20px;
+  position: absolute;
+}
+
+div.banniere-image {
+  width: 100%;
+}
+
+div.banniere-image img {
+  width: 100%;
+}
+
+main {
+  width: 100%;
+  height: 700px;
+  background-color: #f6f6f6;
+  position: relative;
+  top: -65px;
+  border-radius: 40px;
+}
+
+main h2 {
+  font-family: 'shirikhand';
+  font-size: 25px;
+  font-style: italic;
+  padding-top: 35px;
+  padding-left: 15px;
+}
+
+main h2::first-letter {
+  text-transform: capitalize;
+}
+
+main .menu {
+  margin-top: 35px;
+}
+
+main .menu .entree, main .menu .plat {
+  background-color: aquamarine;
+}
+
+main .menu .entree h3, main .menu .plat h3 {
+  width: 97%;
+  margin: 0 auto;
+  text-transform: uppercase;
+  font-family: 'Roboto-thin';
+  font-size: 18px;
+}
+
+main .menu .entree .first, main .menu .plat .first, main .menu .entree .second, main .menu .plat .second, main .menu .entree .third, main .menu .plat .third {
+  width: 97%;
+  background-color: #fff;
+  margin: 0 auto;
+  text-indent: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 20px;
+  position: relative;
+  line-height: 25px;
+  border-radius: 15px;
+  -webkit-box-shadow: 3px 2px 8px rgba(0, 0, 0, 0.2);
+          box-shadow: 3px 2px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 15px;
+}
+
+main .menu .entree .first h4, main .menu .plat .first h4, main .menu .entree .second h4, main .menu .plat .second h4, main .menu .entree .third h4, main .menu .plat .third h4 {
+  font-family: "riboto-black";
+  font-size: 16px;
+}
+
+main .menu .entree .first p, main .menu .plat .first p, main .menu .entree .second p, main .menu .plat .second p, main .menu .entree .third p, main .menu .plat .third p {
+  font-family: "riboto-thin";
+  font-size: 14px;
+}
+
+main .menu .entree .first span, main .menu .plat .first span, main .menu .entree .second span, main .menu .plat .second span, main .menu .entree .third span, main .menu .plat .third span {
+  display: block;
+  position: absolute;
+  top: 40px;
+  right: 15px;
+  font-size: 16px;
+  font-family: "riboto-thin";
+}
+/*# sourceMappingURL=style1.css.map */

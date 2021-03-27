@@ -1,12 +1,12 @@
-&mixin heart {
-    span i.vide{
+@mixin heart{
+    span.heart i.vide{
         position:absolute;
         top:20px;
         right:20px;
         font-size: 35px;
         color:grey;
     }
-    span i.solid{
+    span.heart i.solid{
         
         position:absolute;
         top:20px;

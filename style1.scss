@@ -1,6 +1,7 @@
 $color-primary:#9356DC;
 $color-secondary:#FF79DA;
 $color-tertiary:#99E2D0;
+@import "./dic/mixins.scss";
 @font-face{
     font-family: "shirikhand";
     src:url(./font/Shrikhand-Regular.ttf);
@@ -22,7 +23,7 @@ $color-tertiary:#99E2D0;
     font-family:"Roboto-bolditalic";
     src:url(./font/Roboto-BoldItalic.ttf);
 }
-@font-face{
+@font-face{ 
     font-family: "Roboto-italic";
     src:url(./font/Roboto-Italic.ttf)
 }
@@ -87,6 +88,7 @@ div.banniere-image{
     }
 }
 main{
+    @include heart;
     width: 100%;
     
     background-color:#f6f6f6;

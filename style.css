@@ -264,7 +264,7 @@ div.restaurant fieldset figcaption {
   position: relative;
 }
 
-div.restaurant fieldset figcaption span i.vide {
+div.restaurant fieldset figcaption span.heart i.vide {
   position: absolute;
   top: 20px;
   right: 20px;
@@ -272,7 +272,7 @@ div.restaurant fieldset figcaption span i.vide {
   color: grey;
 }
 
-div.restaurant fieldset figcaption span i.solid {
+div.restaurant fieldset figcaption span.heart i.solid {
   position: absolute;
   top: 20px;
   right: 20px;
@@ -288,7 +288,7 @@ div.restaurant fieldset figcaption span i.solid {
   transition: .5s ease-in-out;
 }
 
-div.restaurant fieldset figcaption span i.solid:hover {
+div.restaurant fieldset figcaption span.heart i.solid:hover {
   background-position-y: 0;
 }
 

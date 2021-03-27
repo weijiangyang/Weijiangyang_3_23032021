@@ -2,7 +2,7 @@ $color-primary:#9356DC;
 $color-secondary:#FF79DA;
 $color-tertiary:#99E2D0;
 
-    
+@import "./dic/mixins.scss";
     
 
 @font-face{
@@ -243,30 +243,31 @@ div.fonctionnement{
                 border-radius: 0 0 15px 15px;
                 box-shadow: 2px 2px 5px rgba(0, 0, 0 ,.3);
                 position:relative;
-                span i.vide{
-                    position:absolute;
-                    top:20px;
-                    right:20px;
-                    font-size: 35px;
-                    color:grey;
-                }
-                span i.solid{
+                @include heart;
+                // span i.vide{
+                //     position:absolute;
+                //     top:20px;
+                //     right:20px;
+                //     font-size: 35px;
+                //     color:grey;
+                // }
+                // span i.solid{
                     
-                    position:absolute;
-                    top:20px;
-                    right:20px;
-                    font-size: 35px;
-                    background: linear-gradient(to bottom,$color-secondary,$color-primary);
-                    background-position-y: 80px;
-                    background-repeat: no-repeat;
-                    background-clip: text;
-                    -webkit-background-clip: text;
-                    color:transparent;
-                    transition:.5s ease-in-out;
-                    &:hover{
-                        background-position-y: 0;
-                    }
-                }
+                //     position:absolute;
+                //     top:20px;
+                //     right:20px;
+                //     font-size: 35px;
+                //     background: linear-gradient(to bottom,$color-secondary,$color-primary);
+                //     background-position-y: 80px;
+                //     background-repeat: no-repeat;
+                //     background-clip: text;
+                //     -webkit-background-clip: text;
+                //     color:transparent;
+                //     transition:.5s ease-in-out;
+                //     &:hover{
+                //         background-position-y: 0;
+                //     }
+                // }
              
                 h3{
                     text-indent: 5px;

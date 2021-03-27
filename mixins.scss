@@ -1,0 +1,27 @@
+&mixin heart {
+    span i.vide{
+        position:absolute;
+        top:20px;
+        right:20px;
+        font-size: 35px;
+        color:grey;
+    }
+    span i.solid{
+        
+        position:absolute;
+        top:20px;
+        right:20px;
+        font-size: 35px;
+        background: linear-gradient(to bottom,$color-secondary,$color-primary);
+        background-position-y: 80px;
+        background-repeat: no-repeat;
+        background-clip: text;
+        -webkit-background-clip: text;
+        color:transparent;
+        transition:.5s ease-in-out;
+        &:hover{
+            background-position-y: 0;
+        }
+    }
+    
+}

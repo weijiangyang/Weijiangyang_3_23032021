@@ -99,10 +99,10 @@ div.banniere-image img {
 
 main {
   width: 100%;
-  background-color: green;
+  background-color: #f6f6f6;
   position: relative;
   top: -65px;
-  border-radius: 40px;
+  border-radius: 40px 40px 0 0;
   padding-bottom: 100px;
 }
 
@@ -188,6 +188,15 @@ main .button {
   background: linear-gradient(180deg, #FF79DA, #9356DC);
   color: white;
   font-size: 18px;
+  -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+main .button:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#fface8), to(#ae80e5));
+  background: linear-gradient(180deg, #fface8, #ae80e5);
+  -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+          box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
 }
 
 footer {
@@ -195,7 +204,7 @@ footer {
   background-color: #353535;
   margin: 0 auto;
   color: #fff;
-  margin-top: 0px;
+  margin-top: -70px;
   margin-bottom: 25px;
   padding-bottom: 20px;
 }

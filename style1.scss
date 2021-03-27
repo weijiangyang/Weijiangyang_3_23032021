@@ -89,11 +89,12 @@ div.banniere-image{
 main{
     width: 100%;
     
-    background-color:green;
+    background-color:#f6f6f6;
     position:relative;
     top:-65px;
-    border-radius: 40px;
+    border-radius: 40px 40px 0 0;
     padding-bottom:100px;
+    
     h2{
         font-family: 'shirikhand';
         font-size:25px;
@@ -179,6 +180,11 @@ main{
                 background:linear-gradient(180deg,$color-secondary,$color-primary);
                 color:white;
                 font-size: 18px;
+                box-shadow: 2px 2px 5px rgba(0, 0, 0 ,.2);
+                &:hover{
+                    background: linear-gradient(180deg,lighten($color-secondary,10),lighten($color-primary,10));
+                    box-shadow: 2px 2px 5px rgba(0, 0, 0 ,.6);
+                }
                 
 
             }
@@ -193,7 +199,7 @@ main{
         background-color: #353535;
         margin:0 auto;
         color:#fff;
-        margin-top:0px;
+        margin-top:-70px;
         margin-bottom: 25px;
         padding-bottom: 20px;
         a{

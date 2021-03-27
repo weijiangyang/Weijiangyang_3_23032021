@@ -91,10 +91,26 @@ header i {
 
 div.banniere-image {
   width: 100%;
+  position: relative;
+  background-color: rosybrown;
+}
+
+div.banniere-image::before {
+  content: "";
+  padding-top: 58%;
+  display: block;
 }
 
 div.banniere-image img {
+  position: absolute;
   width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
 }
 
 main {
@@ -140,6 +156,7 @@ main h2 {
   font-style: italic;
   padding-top: 35px;
   padding-left: 15px;
+  letter-spacing: 1px;
 }
 
 main h2::first-letter {
@@ -168,7 +185,7 @@ main .menu .entree h3 span, main .menu .plat h3 span, main .menu .dessert h3 spa
   padding-bottom: 5px;
 }
 
-main .menu .entree .first, main .menu .plat .first, main .menu .dessert .first, main .menu .entree .second, main .menu .plat .second, main .menu .dessert .second, main .menu .entree .third, main .menu .plat .third, main .menu .dessert .third {
+main .menu .entree .first, main .menu .plat .first, main .menu .dessert .first, main .menu .entree .second, main .menu .plat .second, main .menu .dessert .second, main .menu .entree .third, main .menu .plat .third, main .menu .dessert .third, main .menu .entree .forth, main .menu .plat .forth, main .menu .dessert .forth {
   width: 97%;
   background-color: #fff;
   margin: 0 auto;
@@ -184,17 +201,17 @@ main .menu .entree .first, main .menu .plat .first, main .menu .dessert .first, 
   margin-bottom: 15px;
 }
 
-main .menu .entree .first h4, main .menu .plat .first h4, main .menu .dessert .first h4, main .menu .entree .second h4, main .menu .plat .second h4, main .menu .dessert .second h4, main .menu .entree .third h4, main .menu .plat .third h4, main .menu .dessert .third h4 {
+main .menu .entree .first h4, main .menu .plat .first h4, main .menu .dessert .first h4, main .menu .entree .second h4, main .menu .plat .second h4, main .menu .dessert .second h4, main .menu .entree .third h4, main .menu .plat .third h4, main .menu .dessert .third h4, main .menu .entree .forth h4, main .menu .plat .forth h4, main .menu .dessert .forth h4 {
   font-family: "riboto-black";
   font-size: 16px;
 }
 
-main .menu .entree .first p, main .menu .plat .first p, main .menu .dessert .first p, main .menu .entree .second p, main .menu .plat .second p, main .menu .dessert .second p, main .menu .entree .third p, main .menu .plat .third p, main .menu .dessert .third p {
+main .menu .entree .first p, main .menu .plat .first p, main .menu .dessert .first p, main .menu .entree .second p, main .menu .plat .second p, main .menu .dessert .second p, main .menu .entree .third p, main .menu .plat .third p, main .menu .dessert .third p, main .menu .entree .forth p, main .menu .plat .forth p, main .menu .dessert .forth p {
   font-family: "riboto-thin";
   font-size: 14px;
 }
 
-main .menu .entree .first span, main .menu .plat .first span, main .menu .dessert .first span, main .menu .entree .second span, main .menu .plat .second span, main .menu .dessert .second span, main .menu .entree .third span, main .menu .plat .third span, main .menu .dessert .third span {
+main .menu .entree .first span, main .menu .plat .first span, main .menu .dessert .first span, main .menu .entree .second span, main .menu .plat .second span, main .menu .dessert .second span, main .menu .entree .third span, main .menu .plat .third span, main .menu .dessert .third span, main .menu .entree .forth span, main .menu .plat .forth span, main .menu .dessert .forth span {
   display: block;
   position: absolute;
   top: 40px;

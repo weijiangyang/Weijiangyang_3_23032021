@@ -141,43 +141,57 @@ main{
                 }
                 }
             .first{
+                display:flex;
+
                 width: 97%;
+                height: 70px;
+                align-items: center;
                 background-color: #fff;
                 margin:0 auto;
-                
-                // text-indent: 10px;
-                padding-top:15px;
-                padding-bottom:15px;
-                margin-top: 20px;
-                position:relative;
+                margin-top: 20px; 
+                margin-bottom:15px;
+                // position:relative;
                 line-height: 25px;
                 border-radius: 15px;
                 box-shadow: 3px 2px 8px rgba(0, 0, 0 ,.2);
-                margin-bottom:15px;
-                
-                h4{
-                    font-family: "riboto-black";
-                    font-size:16px;
-                    width: 95%;
-                    margin:0 auto;
-                    
-                    
+                .container_left{
+                    width: 100%;
+                    margin-left: 10px;
                     
                 }
-                p{
+               .desc{background-color: aqua;
+                   
+                   display:flex;
+                   justify-content: space-between;
+                    h4{
+                        font-family: "riboto-black";
+                        font-size:16px;
+                    
+                        margin:0 auto;
+                    }
+                    p{
                     font-family: "riboto-thin";
                     font-size:14px;
-                    width: 95%;
-                    margin:0 auto;
-                }
-                span{
-                    display:block;
-                    position:absolute;
-                    top:40px;
-                    right:15px;
-                    font-size:16px;
-                    font-family: "riboto-black";
-                }
+                    } 
+                    span{
+                        display:block;
+                    
+                        
+                        font-size:16px;
+                        font-family: "riboto-black";
+                        margin-right:25px;
+                        margin-left:15px;
+                    }
+               }
+                
+                
+                    
+                    
+                
+                
+                   
+                
+                
 
                 }
             

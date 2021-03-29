@@ -144,63 +144,119 @@ main{
                 display:flex;
 
                 width: 97%;
-                height: 70px;
-                align-items: center;
+                // height: 70px;
+                // align-items: center;
                 background-color: #fff;
                 margin:0 auto;
                 margin-top: 20px; 
                 margin-bottom:15px;
                 // position:relative;
-                line-height: 25px;
+                // line-height: 25px;
                 border-radius: 15px;
                 box-shadow: 3px 2px 8px rgba(0, 0, 0 ,.2);
+                font-size:18px;
+               
+                
                 .container_left{
                     width: 100%;
+                    // transform: scaleX(1);
                     margin-left: 10px;
-                    
-                }
-               .desc{background-color: aqua;
+                    background-color:#fff;
+                    transform-origin: right;
+                    transition:.5s;
+                    padding-top:15px;
+                    padding-bottom:15px;
+                    h4{
+                        font-family: "riboto-black";
+                        margin-bottom: 10px;
+                    }
+             .desc{
                    
                    display:flex;
                    justify-content: space-between;
-                    h4{
-                        font-family: "riboto-black";
-                        font-size:16px;
                     
-                        margin:0 auto;
-                    }
                     p{
                     font-family: "riboto-thin";
-                    font-size:14px;
+                    
                     } 
                     span{
                         display:block;
-                    
-                        
-                        font-size:16px;
                         font-family: "riboto-black";
                         margin-right:25px;
                         margin-left:15px;
+                    }    
+                   }     
+                        
+                 }   
+                    
+                    
+                    
+               
+               .container_right{
+    
+                width: 0;
+                
+                 transform: scaleX(1);
+                 transform-origin: right;
+                 
+                 background-color: $color-tertiary;
+                 transition:.5s ;
+                 
+                 display:flex;
+                 justify-content: center;
+                 align-items: center;
+                 i{display:none;
+                  
+                   width: 50px;
+                   height: 50px;
+                   background-color: red;
+                   text-align: center;
+                   line-height: 50px;
+                   border-radius: 50%;
+                   transform: rotate(0);
+                   transition: 1s;
+                   font-size: 30px;
+                   background-color: #fff;
+                   color:$color-tertiary
+                   
+                  } 
+                  
+                  }
+                  &:active{
+                      .container_left{
+                          width:65%;
+                       
+                        
+                      
+                      h4,p{
+                      white-space: nowrap;
+                      text-overflow: ellipsis;
+                      overflow: hidden;}
+                        } 
+                    .container_right{
+                        width:35%;
+                        i{
+                            display:block;
+                        }
                     }
-               }
                 
-                
-                    
+                }      
                     
                 
-                
+            }
                    
                 
                 
 
-                }
+                
             
-            }
+            
             .second,.third,.forth{
                 @extend .first;
             }
+        
             
-            }
+            
             .plat{
                 @extend .entree;
             }
@@ -270,3 +326,5 @@ main{
         
         
     }
+}
+}

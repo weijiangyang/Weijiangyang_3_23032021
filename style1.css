@@ -167,12 +167,12 @@ main .menu {
   margin-top: 35px;
 }
 
-main .menu .entree, main .menu .entree .plat, main .menu .entree .dessert {
+main .menu .entree, main .menu .plat, main .menu .dessert {
   background-color: #f6f6f6;
   margin-bottom: 50px;
 }
 
-main .menu .entree h3, main .menu .entree .plat h3, main .menu .entree .dessert h3 {
+main .menu .entree h3, main .menu .plat h3, main .menu .dessert h3 {
   width: 97%;
   margin: 0 auto;
   text-transform: uppercase;
@@ -180,12 +180,12 @@ main .menu .entree h3, main .menu .entree .plat h3, main .menu .entree .dessert 
   font-size: 18px;
 }
 
-main .menu .entree h3 span, main .menu .entree .plat h3 span, main .menu .entree .dessert h3 span {
+main .menu .entree h3 span, main .menu .plat h3 span, main .menu .dessert h3 span {
   border-bottom: 2px solid #99E2D0;
   padding-bottom: 5px;
 }
 
-main .menu .entree .first, main .menu .entree .second, main .menu .entree .third, main .menu .entree .forth {
+main .menu .entree .first, main .menu .plat .first, main .menu .dessert .first, main .menu .entree .second, main .menu .plat .second, main .menu .dessert .second, main .menu .entree .third, main .menu .plat .third, main .menu .dessert .third, main .menu .entree .forth, main .menu .plat .forth, main .menu .dessert .forth {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -200,7 +200,7 @@ main .menu .entree .first, main .menu .entree .second, main .menu .entree .third
   font-size: 18px;
 }
 
-main .menu .entree .first .container_left, main .menu .entree .second .container_left, main .menu .entree .third .container_left, main .menu .entree .forth .container_left {
+main .menu .entree .first .container_left, main .menu .plat .first .container_left, main .menu .dessert .first .container_left, main .menu .entree .second .container_left, main .menu .plat .second .container_left, main .menu .dessert .second .container_left, main .menu .entree .third .container_left, main .menu .plat .third .container_left, main .menu .dessert .third .container_left, main .menu .entree .forth .container_left, main .menu .plat .forth .container_left, main .menu .dessert .forth .container_left {
   width: 100%;
   margin-left: 10px;
   background-color: #fff;
@@ -212,12 +212,13 @@ main .menu .entree .first .container_left, main .menu .entree .second .container
   padding-bottom: 15px;
 }
 
-main .menu .entree .first .container_left h4, main .menu .entree .second .container_left h4, main .menu .entree .third .container_left h4, main .menu .entree .forth .container_left h4 {
+main .menu .entree .first .container_left h4, main .menu .plat .first .container_left h4, main .menu .dessert .first .container_left h4, main .menu .entree .second .container_left h4, main .menu .plat .second .container_left h4, main .menu .dessert .second .container_left h4, main .menu .entree .third .container_left h4, main .menu .plat .third .container_left h4, main .menu .dessert .third .container_left h4, main .menu .entree .forth .container_left h4, main .menu .plat .forth .container_left h4, main .menu .dessert .forth .container_left h4 {
   font-family: "riboto-black";
   margin-bottom: 10px;
+  font-size: 18px;
 }
 
-main .menu .entree .first .container_left .desc, main .menu .entree .second .container_left .desc, main .menu .entree .third .container_left .desc, main .menu .entree .forth .container_left .desc {
+main .menu .entree .first .container_left .desc, main .menu .plat .first .container_left .desc, main .menu .dessert .first .container_left .desc, main .menu .entree .second .container_left .desc, main .menu .plat .second .container_left .desc, main .menu .dessert .second .container_left .desc, main .menu .entree .third .container_left .desc, main .menu .plat .third .container_left .desc, main .menu .dessert .third .container_left .desc, main .menu .entree .forth .container_left .desc, main .menu .plat .forth .container_left .desc, main .menu .dessert .forth .container_left .desc {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -226,18 +227,20 @@ main .menu .entree .first .container_left .desc, main .menu .entree .second .con
           justify-content: space-between;
 }
 
-main .menu .entree .first .container_left .desc p, main .menu .entree .second .container_left .desc p, main .menu .entree .third .container_left .desc p, main .menu .entree .forth .container_left .desc p {
+main .menu .entree .first .container_left .desc p, main .menu .plat .first .container_left .desc p, main .menu .dessert .first .container_left .desc p, main .menu .entree .second .container_left .desc p, main .menu .plat .second .container_left .desc p, main .menu .dessert .second .container_left .desc p, main .menu .entree .third .container_left .desc p, main .menu .plat .third .container_left .desc p, main .menu .dessert .third .container_left .desc p, main .menu .entree .forth .container_left .desc p, main .menu .plat .forth .container_left .desc p, main .menu .dessert .forth .container_left .desc p {
   font-family: "riboto-thin";
+  font-size: 16px;
 }
 
-main .menu .entree .first .container_left .desc span, main .menu .entree .second .container_left .desc span, main .menu .entree .third .container_left .desc span, main .menu .entree .forth .container_left .desc span {
+main .menu .entree .first .container_left .desc span, main .menu .plat .first .container_left .desc span, main .menu .dessert .first .container_left .desc span, main .menu .entree .second .container_left .desc span, main .menu .plat .second .container_left .desc span, main .menu .dessert .second .container_left .desc span, main .menu .entree .third .container_left .desc span, main .menu .plat .third .container_left .desc span, main .menu .dessert .third .container_left .desc span, main .menu .entree .forth .container_left .desc span, main .menu .plat .forth .container_left .desc span, main .menu .dessert .forth .container_left .desc span {
   display: block;
   font-family: "riboto-black";
+  font-size: 16px;
   margin-right: 25px;
   margin-left: 15px;
 }
 
-main .menu .entree .first .container_right, main .menu .entree .second .container_right, main .menu .entree .third .container_right, main .menu .entree .forth .container_right {
+main .menu .entree .first .container_right, main .menu .plat .first .container_right, main .menu .dessert .first .container_right, main .menu .entree .second .container_right, main .menu .plat .second .container_right, main .menu .dessert .second .container_right, main .menu .entree .third .container_right, main .menu .plat .third .container_right, main .menu .dessert .third .container_right, main .menu .entree .forth .container_right, main .menu .plat .forth .container_right, main .menu .dessert .forth .container_right {
   width: 0;
   -webkit-transform: scaleX(1);
           transform: scaleX(1);
@@ -257,7 +260,7 @@ main .menu .entree .first .container_right, main .menu .entree .second .containe
           align-items: center;
 }
 
-main .menu .entree .first .container_right i, main .menu .entree .second .container_right i, main .menu .entree .third .container_right i, main .menu .entree .forth .container_right i {
+main .menu .entree .first .container_right i, main .menu .plat .first .container_right i, main .menu .dessert .first .container_right i, main .menu .entree .second .container_right i, main .menu .plat .second .container_right i, main .menu .dessert .second .container_right i, main .menu .entree .third .container_right i, main .menu .plat .third .container_right i, main .menu .dessert .third .container_right i, main .menu .entree .forth .container_right i, main .menu .plat .forth .container_right i, main .menu .dessert .forth .container_right i {
   display: none;
   width: 50px;
   height: 50px;
@@ -274,25 +277,25 @@ main .menu .entree .first .container_right i, main .menu .entree .second .contai
   color: #99E2D0;
 }
 
-main .menu .entree .first:active .container_left, main .menu .entree .second:active .container_left, main .menu .entree .third:active .container_left, main .menu .entree .forth:active .container_left {
-  width: 65%;
+main .menu .entree .first:hover .container_left, main .menu .plat .first:hover .container_left, main .menu .dessert .first:hover .container_left, main .menu .entree .second:hover .container_left, main .menu .plat .second:hover .container_left, main .menu .dessert .second:hover .container_left, main .menu .entree .third:hover .container_left, main .menu .plat .third:hover .container_left, main .menu .dessert .third:hover .container_left, main .menu .entree .forth:hover .container_left, main .menu .plat .forth:hover .container_left, main .menu .dessert .forth:hover .container_left {
+  width: 70%;
 }
 
-main .menu .entree .first:active .container_left h4, main .menu .entree .second:active .container_left h4, main .menu .entree .third:active .container_left h4, main .menu .entree .forth:active .container_left h4, main .menu .entree .first:active .container_left p, main .menu .entree .second:active .container_left p, main .menu .entree .third:active .container_left p, main .menu .entree .forth:active .container_left p {
+main .menu .entree .first:hover .container_left h4, main .menu .plat .first:hover .container_left h4, main .menu .dessert .first:hover .container_left h4, main .menu .entree .second:hover .container_left h4, main .menu .plat .second:hover .container_left h4, main .menu .dessert .second:hover .container_left h4, main .menu .entree .third:hover .container_left h4, main .menu .plat .third:hover .container_left h4, main .menu .dessert .third:hover .container_left h4, main .menu .entree .forth:hover .container_left h4, main .menu .plat .forth:hover .container_left h4, main .menu .dessert .forth:hover .container_left h4, main .menu .entree .first:hover .container_left p, main .menu .plat .first:hover .container_left p, main .menu .dessert .first:hover .container_left p, main .menu .entree .second:hover .container_left p, main .menu .plat .second:hover .container_left p, main .menu .dessert .second:hover .container_left p, main .menu .entree .third:hover .container_left p, main .menu .plat .third:hover .container_left p, main .menu .dessert .third:hover .container_left p, main .menu .entree .forth:hover .container_left p, main .menu .plat .forth:hover .container_left p, main .menu .dessert .forth:hover .container_left p {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
 }
 
-main .menu .entree .first:active .container_right, main .menu .entree .second:active .container_right, main .menu .entree .third:active .container_right, main .menu .entree .forth:active .container_right {
-  width: 35%;
+main .menu .entree .first:hover .container_right, main .menu .plat .first:hover .container_right, main .menu .dessert .first:hover .container_right, main .menu .entree .second:hover .container_right, main .menu .plat .second:hover .container_right, main .menu .dessert .second:hover .container_right, main .menu .entree .third:hover .container_right, main .menu .plat .third:hover .container_right, main .menu .dessert .third:hover .container_right, main .menu .entree .forth:hover .container_right, main .menu .plat .forth:hover .container_right, main .menu .dessert .forth:hover .container_right {
+  width: 30%;
 }
 
-main .menu .entree .first:active .container_right i, main .menu .entree .second:active .container_right i, main .menu .entree .third:active .container_right i, main .menu .entree .forth:active .container_right i {
+main .menu .entree .first:hover .container_right i, main .menu .plat .first:hover .container_right i, main .menu .dessert .first:hover .container_right i, main .menu .entree .second:hover .container_right i, main .menu .plat .second:hover .container_right i, main .menu .dessert .second:hover .container_right i, main .menu .entree .third:hover .container_right i, main .menu .plat .third:hover .container_right i, main .menu .dessert .third:hover .container_right i, main .menu .entree .forth:hover .container_right i, main .menu .plat .forth:hover .container_right i, main .menu .dessert .forth:hover .container_right i {
   display: block;
 }
 
-main .menu .entree .button {
+main .menu .button {
   width: 45%;
   height: 60px;
   background-color: #FF79DA;
@@ -309,28 +312,28 @@ main .menu .entree .button {
           box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-main .menu .entree .button:hover {
+main .menu .button:hover {
   background: -webkit-gradient(linear, left top, left bottom, from(#fface8), to(#ae80e5));
   background: linear-gradient(180deg, #fface8, #ae80e5);
   -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
           box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
 }
 
-main .menu footer {
+footer {
   width: 100%;
   background-color: #353535;
   margin: 0 auto;
   color: #fff;
-  margin-top: -70px;
+  margin-top: 0px;
   margin-bottom: 25px;
   padding-bottom: 20px;
 }
 
-main .menu footer a {
+footer a {
   color: #fff;
 }
 
-main .menu footer h2 {
+footer h2 {
   font-family: 'shirikhand';
   font-size: 22px;
   font-weight: 200;
@@ -339,18 +342,18 @@ main .menu footer h2 {
   width: 90%;
 }
 
-main .menu footer ul {
+footer ul {
   width: 90%;
   margin: 0 auto;
   font-family: 'riboto-medium';
   font-size: 18px;
 }
 
-main .menu footer ul li {
+footer ul li {
   line-height: 35px;
 }
 
-main .menu footer ul li i {
+footer ul li i {
   display: inline-block;
   width: 20px;
   margin-right: 16px;

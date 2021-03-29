@@ -163,12 +163,13 @@ main{
                     margin-left: 10px;
                     background-color:#fff;
                     transform-origin: right;
-                    transition:.5s;
+                    transition:.5s ;
                     padding-top:15px;
                     padding-bottom:15px;
                     h4{
                         font-family: "riboto-black";
                         margin-bottom: 10px;
+                        font-size: 18px;
                     }
              .desc{
                    
@@ -177,11 +178,13 @@ main{
                     
                     p{
                     font-family: "riboto-thin";
+                    font-size: 16px;
                     
                     } 
                     span{
                         display:block;
                         font-family: "riboto-black";
+                        font-size: 16px;
                         margin-right:25px;
                         margin-left:15px;
                     }    
@@ -222,9 +225,9 @@ main{
                   } 
                   
                   }
-                  &:active{
+                  &:hover{
                       .container_left{
-                          width:65%;
+                          width:70%;
                        
                         
                       
@@ -234,7 +237,7 @@ main{
                       overflow: hidden;}
                         } 
                     .container_right{
-                        width:35%;
+                        width:30%;
                         i{
                             display:block;
                         }
@@ -254,6 +257,7 @@ main{
             .second,.third,.forth{
                 @extend .first;
             }
+        }
         
             
             
@@ -284,17 +288,13 @@ main{
 
             }
 
-                
-        
-        
-
-    }
-    footer{
+     } }
+     footer{
         width: 100%;
         background-color: #353535;
         margin:0 auto;
         color:#fff;
-        margin-top:-70px;
+        margin-top:0px;
         margin-bottom: 25px;
         padding-bottom: 20px;
         a{
@@ -325,6 +325,9 @@ main{
         }
         
         
-    }
-}
-}
+    }          
+        
+        
+
+    
+     

@@ -279,11 +279,11 @@ main .menu .entree .first .container_right i, main .menu .plat .first .container
 }
 
 main .menu .entree .first:hover .container_left, main .menu .plat .first:hover .container_left, main .menu .dessert .first:hover .container_left, main .menu .entree .second:hover .container_left, main .menu .plat .second:hover .container_left, main .menu .dessert .second:hover .container_left, main .menu .entree .third:hover .container_left, main .menu .plat .third:hover .container_left, main .menu .dessert .third:hover .container_left, main .menu .entree .forth:hover .container_left, main .menu .plat .forth:hover .container_left, main .menu .dessert .forth:hover .container_left {
-  width: 60%;
+  width: 70%;
 }
 
 main .menu .entree .first:hover .container_right, main .menu .plat .first:hover .container_right, main .menu .dessert .first:hover .container_right, main .menu .entree .second:hover .container_right, main .menu .plat .second:hover .container_right, main .menu .dessert .second:hover .container_right, main .menu .entree .third:hover .container_right, main .menu .plat .third:hover .container_right, main .menu .dessert .third:hover .container_right, main .menu .entree .forth:hover .container_right, main .menu .plat .forth:hover .container_right, main .menu .dessert .forth:hover .container_right {
-  width: 40%;
+  width: 30%;
 }
 
 main .menu .entree .first:hover .container_right i, main .menu .plat .first:hover .container_right i, main .menu .dessert .first:hover .container_right i, main .menu .entree .second:hover .container_right i, main .menu .plat .second:hover .container_right i, main .menu .dessert .second:hover .container_right i, main .menu .entree .third:hover .container_right i, main .menu .plat .third:hover .container_right i, main .menu .dessert .third:hover .container_right i, main .menu .entree .forth:hover .container_right i, main .menu .plat .forth:hover .container_right i, main .menu .dessert .forth:hover .container_right i {

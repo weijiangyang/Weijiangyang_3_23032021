@@ -201,10 +201,11 @@ main .menu .entree .first .container_left, main .menu .plat .first .container_le
   background-color: #fff;
   -webkit-transform-origin: right;
           transform-origin: right;
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 1s;
+  transition: 1s;
   padding-top: 15px;
   padding-bottom: 15px;
+  border-radius: 15px;
 }
 
 main .menu .entree .first .container_left h4, main .menu .plat .first .container_left h4, main .menu .dessert .first .container_left h4, main .menu .entree .second .container_left h4, main .menu .plat .second .container_left h4, main .menu .dessert .second .container_left h4, main .menu .entree .third .container_left h4, main .menu .plat .third .container_left h4, main .menu .dessert .third .container_left h4, main .menu .entree .forth .container_left h4, main .menu .plat .forth .container_left h4, main .menu .dessert .forth .container_left h4 {
@@ -244,13 +245,12 @@ main .menu .entree .first .container_left .desc span, main .menu .plat .first .c
 
 main .menu .entree .first .container_right, main .menu .plat .first .container_right, main .menu .dessert .first .container_right, main .menu .entree .second .container_right, main .menu .plat .second .container_right, main .menu .dessert .second .container_right, main .menu .entree .third .container_right, main .menu .plat .third .container_right, main .menu .dessert .third .container_right, main .menu .entree .forth .container_right, main .menu .plat .forth .container_right, main .menu .dessert .forth .container_right {
   width: 0;
-  -webkit-transform: scaleX(1);
-          transform: scaleX(1);
+  border-radius: 0 15px 15px 0;
   -webkit-transform-origin: right;
           transform-origin: right;
   background-color: #99E2D0;
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 1s;
+  transition: 1s;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -263,20 +263,21 @@ main .menu .entree .first .container_right, main .menu .plat .first .container_r
 }
 
 main .menu .entree .first .container_right i, main .menu .plat .first .container_right i, main .menu .dessert .first .container_right i, main .menu .entree .second .container_right i, main .menu .plat .second .container_right i, main .menu .dessert .second .container_right i, main .menu .entree .third .container_right i, main .menu .plat .third .container_right i, main .menu .dessert .third .container_right i, main .menu .entree .forth .container_right i, main .menu .plat .forth .container_right i, main .menu .dessert .forth .container_right i {
-  display: none;
   width: 50px;
   height: 50px;
   background-color: red;
   text-align: center;
   line-height: 50px;
   border-radius: 50%;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  -webkit-transition: 1s;
-  transition: 1s;
   font-size: 30px;
   background-color: #fff;
   color: #99E2D0;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
 }
 
 main .menu .entree .first:hover .container_left, main .menu .plat .first:hover .container_left, main .menu .dessert .first:hover .container_left, main .menu .entree .second:hover .container_left, main .menu .plat .second:hover .container_left, main .menu .dessert .second:hover .container_left, main .menu .entree .third:hover .container_left, main .menu .plat .third:hover .container_left, main .menu .dessert .third:hover .container_left, main .menu .entree .forth:hover .container_left, main .menu .plat .forth:hover .container_left, main .menu .dessert .forth:hover .container_left {
@@ -289,9 +290,11 @@ main .menu .entree .first:hover .container_right, main .menu .plat .first:hover 
 
 main .menu .entree .first:hover .container_right i, main .menu .plat .first:hover .container_right i, main .menu .dessert .first:hover .container_right i, main .menu .entree .second:hover .container_right i, main .menu .plat .second:hover .container_right i, main .menu .dessert .second:hover .container_right i, main .menu .entree .third:hover .container_right i, main .menu .plat .third:hover .container_right i, main .menu .dessert .third:hover .container_right i, main .menu .entree .forth:hover .container_right i, main .menu .plat .forth:hover .container_right i, main .menu .dessert .forth:hover .container_right i {
   display: block;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
 
-main .button {
+main .menu .button {
   width: 45%;
   height: 60px;
   background-color: #FF79DA;
@@ -308,14 +311,14 @@ main .button {
           box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-main .button:hover {
+main .menu .button:hover {
   background: -webkit-gradient(linear, left top, left bottom, from(#fface8), to(#ae80e5));
   background: linear-gradient(180deg, #fface8, #ae80e5);
   -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
           box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
 }
 
-footer {
+main footer {
   width: 100%;
   background-color: #353535;
   margin: 0 auto;
@@ -325,11 +328,11 @@ footer {
   padding-bottom: 20px;
 }
 
-footer a {
+main footer a {
   color: #fff;
 }
 
-footer h2 {
+main footer h2 {
   font-family: 'shirikhand';
   font-size: 22px;
   font-weight: 200;
@@ -338,18 +341,18 @@ footer h2 {
   width: 90%;
 }
 
-footer ul {
+main footer ul {
   width: 90%;
   margin: 0 auto;
   font-family: 'riboto-medium';
   font-size: 18px;
 }
 
-footer ul li {
+main footer ul li {
   line-height: 35px;
 }
 
-footer ul li i {
+main footer ul li i {
   display: inline-block;
   width: 20px;
   margin-right: 16px;

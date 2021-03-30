@@ -166,9 +166,10 @@ main{
                     margin-left: 10px;
                     background-color:#fff;
                     transform-origin: right;
-                    transition:.5s ;
+                    transition:1s ;
                     padding-top:15px;
                     padding-bottom:15px;
+                    border-radius: 15px;
                     h4{
                         font-family: "riboto-black";
                         margin-bottom: 10px;
@@ -179,6 +180,7 @@ main{
                         overflow: hidden;
                     }
              .desc{
+                 
                    
                    display:flex;
                    justify-content: space-between;
@@ -208,30 +210,30 @@ main{
                .container_right{
     
                 width: 0;
+                border-radius: 0 15px 15px 0;
                 
-                 transform: scaleX(1);
+                //  transform: scaleX(1);
                  transform-origin: right;
                  
                  background-color: $color-tertiary;
-                 transition:.5s ;
+                 transition:1s ;
                  
                  display:flex;
                  justify-content: center;
                  align-items: center;
-                 i{display:none;
-                  
-                   width: 50px;
-                   height: 50px;
-                   background-color: red;
-                   text-align: center;
-                   line-height: 50px;
-                   border-radius: 50%;
-                   transform: rotate(0);
-                   transition: 1s;
-                   font-size: 30px;
-                   background-color: #fff;
-                   color:$color-tertiary;
-                   
+                 i{;
+                    width: 50px;
+                    height: 50px;
+                    background-color: red;
+                    text-align: center;
+                    line-height: 50px;
+                    border-radius: 50%;
+                    font-size: 30px;
+                    background-color: #fff;
+                    color:$color-tertiary;
+                    transform: rotate(0deg);
+                    transition:transform 1s;
+              
                   } 
                   
                 }
@@ -246,8 +248,15 @@ main{
                         
                         
                         width: 30%;
-                        i{display:block}
+                    i{
+                         display:block;
+                         transform:rotate(360deg);
+                        
                         }
+                        
+                         
+                        
+                    
                     }
                 
                 }      
@@ -326,7 +335,7 @@ main{
     }
     
    
-   
+}
         
 
     

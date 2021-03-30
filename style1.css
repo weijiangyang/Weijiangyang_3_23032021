@@ -193,6 +193,12 @@ main .menu .entree .first, main .menu .plat .first, main .menu .dessert .first, 
   -webkit-box-shadow: 3px 2px 8px rgba(0, 0, 0, 0.2);
           box-shadow: 3px 2px 8px rgba(0, 0, 0, 0.2);
   font-size: 18px;
+  -webkit-transform: scaleY(0);
+          transform: scaleY(0);
+  -webkit-transform-origin: top;
+          transform-origin: top;
+  -webkit-animation: progress 1s forwards;
+          animation: progress 1s forwards;
 }
 
 main .menu .entree .first .container_left, main .menu .plat .first .container_left, main .menu .dessert .first .container_left, main .menu .entree .second .container_left, main .menu .plat .second .container_left, main .menu .dessert .second .container_left, main .menu .entree .third .container_left, main .menu .plat .third .container_left, main .menu .dessert .third .container_left, main .menu .entree .forth .container_left, main .menu .plat .forth .container_left, main .menu .dessert .forth .container_left {
@@ -295,6 +301,33 @@ main .menu .entree .first:hover .container_right i, main .menu .plat .first:hove
           transform: rotate(360deg);
 }
 
+main .menu .entree .second, main .menu .plat .second, main .menu .dessert .second {
+  -webkit-transform: scaleY(0);
+          transform: scaleY(0);
+  -webkit-transform-origin: top;
+          transform-origin: top;
+  -webkit-animation: progress 1s 1s forwards;
+          animation: progress 1s 1s forwards;
+}
+
+main .menu .entree .third, main .menu .plat .third, main .menu .dessert .third {
+  -webkit-transform: scaleY(0);
+          transform: scaleY(0);
+  -webkit-transform-origin: top;
+          transform-origin: top;
+  -webkit-animation: progress 1s 2s forwards;
+          animation: progress 1s 2s forwards;
+}
+
+main .menu .entree .forth, main .menu .plat .forth, main .menu .dessert .forth {
+  -webkit-transform: scaleY(0);
+          transform: scaleY(0);
+  -webkit-transform-origin: top;
+          transform-origin: top;
+  -webkit-animation: progress 1s 3s forwards;
+          animation: progress 1s 3s forwards;
+}
+
 main .menu .button {
   width: 45%;
   height: 60px;
@@ -357,5 +390,19 @@ footer ul li i {
   display: inline-block;
   width: 20px;
   margin-right: 16px;
+}
+
+@-webkit-keyframes progress {
+  100% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+}
+
+@keyframes progress {
+  100% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
 }
 /*# sourceMappingURL=style1.css.map */

@@ -125,8 +125,9 @@ main{
     }
     .menu{
         margin-top:35px;
+        
         .entree{
-            
+          
             
             
             h3{
@@ -257,20 +258,43 @@ main{
      
                     }
                 
-                }      
+                }  
+                transform:scaleY(0);
+                transform-origin: top;
+               animation:progress 1s forwards;   
                     
             }
             
  
-            .second,.third,.forth{
+            .second{
                 @extend .first;
+                transform:scaleY(0);
+          transform-origin: top;
+         animation:progress 1s 1s forwards;
             }
+            .third{
+                @extend .first;
+                transform:scaleY(0);
+                transform-origin: top;
+                animation:progress 1s 2s forwards;
+            }
+            .forth{
+                @extend .first;
+                transform:scaleY(0);
+                transform-origin: top;
+                animation:progress 1s 3s forwards;
+            }
+
+            
         }
         
             
             
             .plat{
                 @extend .entree;
+               .entree{
+                   
+               }
             }
             .dessert{
                 @extend .entree;
@@ -334,7 +358,11 @@ main{
         }
      }
     
-
+@keyframes progress{
+    100%{
+        transform: scaleY(1);
+    }
+}
 
         
 

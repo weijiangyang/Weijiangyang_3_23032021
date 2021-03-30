@@ -119,7 +119,7 @@ main {
   position: relative;
   top: -65px;
   border-radius: 40px 40px 0 0;
-  padding-bottom: 65px;
+  padding-bottom: 25px;
 }
 
 main span.heart i.vide {
@@ -167,11 +167,6 @@ main .menu {
   margin-top: 35px;
 }
 
-main .menu .entree, main .menu .plat, main .menu .dessert {
-  background-color: #f6f6f6;
-  margin-bottom: 50px;
-}
-
 main .menu .entree h3, main .menu .plat h3, main .menu .dessert h3 {
   width: 97%;
   margin: 0 auto;
@@ -216,6 +211,9 @@ main .menu .entree .first .container_left h4, main .menu .plat .first .container
   font-family: "riboto-black";
   margin-bottom: 10px;
   font-size: 18px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 main .menu .entree .first .container_left .desc, main .menu .plat .first .container_left .desc, main .menu .dessert .first .container_left .desc, main .menu .entree .second .container_left .desc, main .menu .plat .second .container_left .desc, main .menu .dessert .second .container_left .desc, main .menu .entree .third .container_left .desc, main .menu .plat .third .container_left .desc, main .menu .dessert .third .container_left .desc, main .menu .entree .forth .container_left .desc, main .menu .plat .forth .container_left .desc, main .menu .dessert .forth .container_left .desc {
@@ -230,6 +228,9 @@ main .menu .entree .first .container_left .desc, main .menu .plat .first .contai
 main .menu .entree .first .container_left .desc p, main .menu .plat .first .container_left .desc p, main .menu .dessert .first .container_left .desc p, main .menu .entree .second .container_left .desc p, main .menu .plat .second .container_left .desc p, main .menu .dessert .second .container_left .desc p, main .menu .entree .third .container_left .desc p, main .menu .plat .third .container_left .desc p, main .menu .dessert .third .container_left .desc p, main .menu .entree .forth .container_left .desc p, main .menu .plat .forth .container_left .desc p, main .menu .dessert .forth .container_left .desc p {
   font-family: "riboto-thin";
   font-size: 16px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 main .menu .entree .first .container_left .desc span, main .menu .plat .first .container_left .desc span, main .menu .dessert .first .container_left .desc span, main .menu .entree .second .container_left .desc span, main .menu .plat .second .container_left .desc span, main .menu .dessert .second .container_left .desc span, main .menu .entree .third .container_left .desc span, main .menu .plat .third .container_left .desc span, main .menu .dessert .third .container_left .desc span, main .menu .entree .forth .container_left .desc span, main .menu .plat .forth .container_left .desc span, main .menu .dessert .forth .container_left .desc span {
@@ -278,17 +279,11 @@ main .menu .entree .first .container_right i, main .menu .plat .first .container
 }
 
 main .menu .entree .first:hover .container_left, main .menu .plat .first:hover .container_left, main .menu .dessert .first:hover .container_left, main .menu .entree .second:hover .container_left, main .menu .plat .second:hover .container_left, main .menu .dessert .second:hover .container_left, main .menu .entree .third:hover .container_left, main .menu .plat .third:hover .container_left, main .menu .dessert .third:hover .container_left, main .menu .entree .forth:hover .container_left, main .menu .plat .forth:hover .container_left, main .menu .dessert .forth:hover .container_left {
-  width: 70%;
-}
-
-main .menu .entree .first:hover .container_left h4, main .menu .plat .first:hover .container_left h4, main .menu .dessert .first:hover .container_left h4, main .menu .entree .second:hover .container_left h4, main .menu .plat .second:hover .container_left h4, main .menu .dessert .second:hover .container_left h4, main .menu .entree .third:hover .container_left h4, main .menu .plat .third:hover .container_left h4, main .menu .dessert .third:hover .container_left h4, main .menu .entree .forth:hover .container_left h4, main .menu .plat .forth:hover .container_left h4, main .menu .dessert .forth:hover .container_left h4, main .menu .entree .first:hover .container_left p, main .menu .plat .first:hover .container_left p, main .menu .dessert .first:hover .container_left p, main .menu .entree .second:hover .container_left p, main .menu .plat .second:hover .container_left p, main .menu .dessert .second:hover .container_left p, main .menu .entree .third:hover .container_left p, main .menu .plat .third:hover .container_left p, main .menu .dessert .third:hover .container_left p, main .menu .entree .forth:hover .container_left p, main .menu .plat .forth:hover .container_left p, main .menu .dessert .forth:hover .container_left p {
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  overflow: hidden;
+  width: 60%;
 }
 
 main .menu .entree .first:hover .container_right, main .menu .plat .first:hover .container_right, main .menu .dessert .first:hover .container_right, main .menu .entree .second:hover .container_right, main .menu .plat .second:hover .container_right, main .menu .dessert .second:hover .container_right, main .menu .entree .third:hover .container_right, main .menu .plat .third:hover .container_right, main .menu .dessert .third:hover .container_right, main .menu .entree .forth:hover .container_right, main .menu .plat .forth:hover .container_right, main .menu .dessert .forth:hover .container_right {
-  width: 30%;
+  width: 40%;
 }
 
 main .menu .entree .first:hover .container_right i, main .menu .plat .first:hover .container_right i, main .menu .dessert .first:hover .container_right i, main .menu .entree .second:hover .container_right i, main .menu .plat .second:hover .container_right i, main .menu .dessert .second:hover .container_right i, main .menu .entree .third:hover .container_right i, main .menu .plat .third:hover .container_right i, main .menu .dessert .third:hover .container_right i, main .menu .entree .forth:hover .container_right i, main .menu .plat .forth:hover .container_right i, main .menu .dessert .forth:hover .container_right i {

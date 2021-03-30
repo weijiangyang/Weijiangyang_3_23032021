@@ -127,6 +127,9 @@ main{
         margin-top:35px;
         
         .entree{
+            transform:scaleY(0);
+            transform-origin: top;
+           animation:progress 1.5s .2s forwards ;
           
             
             
@@ -143,6 +146,7 @@ main{
                 }
                 }
             .first{
+
                 cursor:pointer;
                 
                 display:flex;
@@ -259,32 +263,15 @@ main{
                     }
                 
                 }  
-                transform:scaleY(0);
-                transform-origin: top;
-               animation:progress .5s  forwards ;   
+                
                     
             }
             
  
-            .second{
+            .second,.third,.forth{
                 @extend .first;
-                transform:scaleY(0);
-          transform-origin: top;
-         animation:progress .5s .5s forwards ;
+               
             }
-            .third{
-                @extend .first;
-                transform:scaleY(0);
-                transform-origin: top;
-                animation:progress .5s 1s forwards ;
-            }
-            .forth{
-                @extend .first;
-                transform:scaleY(0);
-                transform-origin: top;
-                animation:progress .5s 1.5s forwards;
-            }
-
             
         }
         
@@ -292,6 +279,9 @@ main{
             
             .plat{
                 @extend .entree;
+                transform:scaleY(0);
+                transform-origin: top;
+                animation:progress 1.5s 1.8s forwards ;
                .first{
                    animation:progress .5s 2s forwards;
                }
@@ -306,6 +296,9 @@ main{
             }
             .dessert{
                 @extend .entree;
+                transform:scaleY(0);
+                transform-origin: top;
+                animation:progress 1.5s 2.6s forwards ;
                .first{
                    animation:progress .5s 3.5s forwards;
                }

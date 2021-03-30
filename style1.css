@@ -166,6 +166,15 @@ main .menu {
   margin-top: 35px;
 }
 
+main .menu .entree, main .menu .plat, main .menu .dessert {
+  -webkit-transform: scaleY(0);
+          transform: scaleY(0);
+  -webkit-transform-origin: top;
+          transform-origin: top;
+  -webkit-animation: progress 1.5s .2s forwards;
+          animation: progress 1.5s .2s forwards;
+}
+
 main .menu .entree h3, main .menu .plat h3, main .menu .dessert h3 {
   width: 97%;
   margin: 0 auto;
@@ -193,12 +202,6 @@ main .menu .entree .first, main .menu .plat .first, main .menu .dessert .first, 
   -webkit-box-shadow: 3px 2px 8px rgba(0, 0, 0, 0.2);
           box-shadow: 3px 2px 8px rgba(0, 0, 0, 0.2);
   font-size: 18px;
-  -webkit-transform: scaleY(0);
-          transform: scaleY(0);
-  -webkit-transform-origin: top;
-          transform-origin: top;
-  -webkit-animation: progress .5s  forwards;
-          animation: progress .5s  forwards;
 }
 
 main .menu .entree .first .container_left, main .menu .plat .first .container_left, main .menu .dessert .first .container_left, main .menu .entree .second .container_left, main .menu .plat .second .container_left, main .menu .dessert .second .container_left, main .menu .entree .third .container_left, main .menu .plat .third .container_left, main .menu .dessert .third .container_left, main .menu .entree .forth .container_left, main .menu .plat .forth .container_left, main .menu .dessert .forth .container_left {
@@ -301,31 +304,13 @@ main .menu .entree .first:hover .container_right i, main .menu .plat .first:hove
           transform: rotate(360deg);
 }
 
-main .menu .entree .second, main .menu .plat .second, main .menu .dessert .second {
+main .menu .plat {
   -webkit-transform: scaleY(0);
           transform: scaleY(0);
   -webkit-transform-origin: top;
           transform-origin: top;
-  -webkit-animation: progress .5s .5s forwards;
-          animation: progress .5s .5s forwards;
-}
-
-main .menu .entree .third, main .menu .plat .third, main .menu .dessert .third {
-  -webkit-transform: scaleY(0);
-          transform: scaleY(0);
-  -webkit-transform-origin: top;
-          transform-origin: top;
-  -webkit-animation: progress .5s 1s forwards;
-          animation: progress .5s 1s forwards;
-}
-
-main .menu .entree .forth, main .menu .plat .forth, main .menu .dessert .forth {
-  -webkit-transform: scaleY(0);
-          transform: scaleY(0);
-  -webkit-transform-origin: top;
-          transform-origin: top;
-  -webkit-animation: progress .5s 1.5s forwards;
-          animation: progress .5s 1.5s forwards;
+  -webkit-animation: progress 1.5s 1.8s forwards;
+          animation: progress 1.5s 1.8s forwards;
 }
 
 main .menu .plat .first, main .menu .plat .second, main .menu .plat .third, main .menu .plat .forth {
@@ -341,6 +326,15 @@ main .menu .plat .second {
 main .menu .plat .third {
   -webkit-animation: progress .5s 3s forwards;
           animation: progress .5s 3s forwards;
+}
+
+main .menu .dessert {
+  -webkit-transform: scaleY(0);
+          transform: scaleY(0);
+  -webkit-transform-origin: top;
+          transform-origin: top;
+  -webkit-animation: progress 1.5s 2.6s forwards;
+          animation: progress 1.5s 2.6s forwards;
 }
 
 main .menu .dessert .first, main .menu .dessert .second, main .menu .dessert .third, main .menu .dessert .forth {

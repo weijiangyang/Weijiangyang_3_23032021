@@ -197,8 +197,8 @@ main .menu .entree .first, main .menu .plat .first, main .menu .dessert .first, 
           transform: scaleY(0);
   -webkit-transform-origin: top;
           transform-origin: top;
-  -webkit-animation: progress 1s forwards;
-          animation: progress 1s forwards;
+  -webkit-animation: progress .5s  forwards;
+          animation: progress .5s  forwards;
 }
 
 main .menu .entree .first .container_left, main .menu .plat .first .container_left, main .menu .dessert .first .container_left, main .menu .entree .second .container_left, main .menu .plat .second .container_left, main .menu .dessert .second .container_left, main .menu .entree .third .container_left, main .menu .plat .third .container_left, main .menu .dessert .third .container_left, main .menu .entree .forth .container_left, main .menu .plat .forth .container_left, main .menu .dessert .forth .container_left {
@@ -306,8 +306,8 @@ main .menu .entree .second, main .menu .plat .second, main .menu .dessert .secon
           transform: scaleY(0);
   -webkit-transform-origin: top;
           transform-origin: top;
-  -webkit-animation: progress 1s 1s forwards;
-          animation: progress 1s 1s forwards;
+  -webkit-animation: progress .5s .5s forwards;
+          animation: progress .5s .5s forwards;
 }
 
 main .menu .entree .third, main .menu .plat .third, main .menu .dessert .third {
@@ -315,8 +315,8 @@ main .menu .entree .third, main .menu .plat .third, main .menu .dessert .third {
           transform: scaleY(0);
   -webkit-transform-origin: top;
           transform-origin: top;
-  -webkit-animation: progress 1s 2s forwards;
-          animation: progress 1s 2s forwards;
+  -webkit-animation: progress .5s 1s forwards;
+          animation: progress .5s 1s forwards;
 }
 
 main .menu .entree .forth, main .menu .plat .forth, main .menu .dessert .forth {
@@ -324,8 +324,38 @@ main .menu .entree .forth, main .menu .plat .forth, main .menu .dessert .forth {
           transform: scaleY(0);
   -webkit-transform-origin: top;
           transform-origin: top;
-  -webkit-animation: progress 1s 3s forwards;
-          animation: progress 1s 3s forwards;
+  -webkit-animation: progress .5s 1.5s forwards;
+          animation: progress .5s 1.5s forwards;
+}
+
+main .menu .plat .first, main .menu .plat .second, main .menu .plat .third, main .menu .plat .forth {
+  -webkit-animation: progress .5s 2s forwards;
+          animation: progress .5s 2s forwards;
+}
+
+main .menu .plat .second {
+  -webkit-animation: progress .5s 2.5s forwards;
+          animation: progress .5s 2.5s forwards;
+}
+
+main .menu .plat .third {
+  -webkit-animation: progress .5s 3s forwards;
+          animation: progress .5s 3s forwards;
+}
+
+main .menu .dessert .first, main .menu .dessert .second, main .menu .dessert .third, main .menu .dessert .forth {
+  -webkit-animation: progress .5s 3.5s forwards;
+          animation: progress .5s 3.5s forwards;
+}
+
+main .menu .dessert .second {
+  -webkit-animation: progress .5s 4s forwards;
+          animation: progress .5s 4s forwards;
+}
+
+main .menu .dessert .third {
+  -webkit-animation: progress .5s 4.5s forwards;
+          animation: progress .5s 4.5s forwards;
 }
 
 main .menu .button {

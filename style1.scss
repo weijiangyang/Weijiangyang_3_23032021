@@ -84,7 +84,7 @@ header{
 div.banniere-image{
     width: 100%;
     position:relative;
-    background-color: rosybrown;
+  
     &::before{
         content:"";
         padding-top:58%;
@@ -142,6 +142,7 @@ main{
                 }
                 }
             .first{
+                cursor:pointer;
                 
                 display:flex;
 
@@ -174,6 +175,7 @@ main{
                         font-size: 18px;
                         white-space: nowrap;
                         text-overflow: ellipsis;
+                        line-height: 25px;
                         overflow: hidden;
                     }
              .desc{
@@ -228,20 +230,23 @@ main{
                    transition: 1s;
                    font-size: 30px;
                    background-color: #fff;
-                   color:$color-tertiary
+                   color:$color-tertiary;
                    
                   } 
                   
-                  }
+                }
+            
                   &:hover{
                       .container_left{
-                          width:70%;
+                          width: 70%;
+                          
                        }
                         
                     .container_right{
-                        width:30%;
-                        i{
-                            display:block;
+                        
+                        
+                        width: 30%;
+                        i{display:block}
                         }
                     }
                 
@@ -267,7 +272,7 @@ main{
                 width: 45%;
                 height: 60px;
                 background-color:$color-secondary;
-                margin:0 auto;
+                margin:55px auto;
                 text-align: center;
                 line-height: 60px;
                 border-radius: 40px;
@@ -281,9 +286,9 @@ main{
                     box-shadow: 2px 2px 5px rgba(0, 0, 0 ,.6);
                 }
  
-            }
+            }}
 
-     } }
+     
      footer{
         width: 100%;
         background-color: #353535;
@@ -318,9 +323,9 @@ main{
                }
            }
         }
-    }    
-        
-          
+    }
+    
+   
    
         
 

@@ -198,6 +198,8 @@ main .menu .entree .first, main .menu .plat .first, main .menu .dessert .first, 
   margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 15px;
+  margin-right: 10px;
+  margin-left: 10px;
   border-radius: 15px;
   -webkit-box-shadow: 3px 2px 8px rgba(0, 0, 0, 0.2);
           box-shadow: 3px 2px 8px rgba(0, 0, 0, 0.2);
@@ -344,6 +346,16 @@ main .menu .button:hover {
   background: linear-gradient(180deg, #fface8, #ae80e5);
   -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
           box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+}
+
+@media (min-width: 980px) {
+  .menu-wrapper {
+    width: 97%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto;
+  }
 }
 
 footer {

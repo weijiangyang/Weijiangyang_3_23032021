@@ -158,8 +158,9 @@ main{
                 margin:0 auto;
                 margin-top: 20px; 
                 margin-bottom:15px;
-                // position:relative;
-                // line-height: 25px;
+                margin-right:10px;
+                margin-left:10px;
+                
                 border-radius: 15px;
                 box-shadow: 3px 2px 8px rgba(0, 0, 0 ,.2);
                 font-size:18px;
@@ -313,8 +314,19 @@ main{
             }
     }
 }
-
-     
+@media (min-width:980px) {
+    .menu-wrapper{
+        width: 97%;
+        display:flex;
+        margin:auto;
+        
+        }
+        
+            
+        
+        
+    }
+  
      footer{
         width: 100%;
         background-color: #353535;

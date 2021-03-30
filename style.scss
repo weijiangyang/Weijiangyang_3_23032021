@@ -2,7 +2,7 @@ $color-primary:#9356DC;
 $color-secondary:#FF79DA;
 $color-tertiary:#99E2D0;
 
-@import "./dic/mixins.css";
+@import "./dic/mixins.scss";
     
 
 @font-face{
@@ -70,6 +70,8 @@ header h1{
     text-align: center;
     font-size: 30px;
     margin:15px auto 5px;
+
+    
 }
 .rechercher{
     width: 100%;
@@ -132,7 +134,9 @@ header h1{
     }
 }
 div.fonctionnement{
-    width: 85%;
+    
+   width: 85%;
+    
     
     margin:0 auto;
     
@@ -144,8 +148,13 @@ div.fonctionnement{
         position:relative;
         
     }
-    div.choix-rest{
-        width: 90%;
+   .choisir{ 
+      
+       
+    .choix-rest{
+        width: 100%;
+        max-width:600px;
+       
         height: 20px;
         background-color: red;
         background-color: #f6f6f6;
@@ -175,7 +184,7 @@ div.fonctionnement{
             left:32px;
             top:22px;
             font-size: 22px;
-        }
+         }
         p{
             position:absolute;
             left:65px;
@@ -183,18 +192,33 @@ div.fonctionnement{
             font-family: 'roboto-bold';
             font-size: 18px;
         }
-        a{
-            display:block;
-        }
-     
     }
+
+     
+    
      div.compose-menu{
-     @extend div.choix-rest;
+     @extend .choix-rest;
     }
     div.diguiste{
-    @extend div.choix-rest;
+    @extend .choix-rest;
     }
+    
+        
     }
+    
+    }
+    @media (min-width:980px){
+        .choisir{
+            @media (min-width:680px){
+                display:flex;
+                a{
+                  display:block;
+                  width:30%;
+                  margin:0 auto;}
+            }
+        }
+    }
+    
     div.restaurant{
        width: 100%;
        margin:0 auto;
@@ -273,6 +297,19 @@ div.fonctionnement{
        }
         
     }
+    @media (min-width:980px){
+        div.images-rest{
+            display:flex;
+            flex-wrap:wrap ;
+            fieldset{
+                width: 40%;
+            }
+            
+            }
+        }
+        
+
+    // }
     footer{
         width: 100%;
         background-color: #353535;

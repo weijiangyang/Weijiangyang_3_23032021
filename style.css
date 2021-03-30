@@ -1,4 +1,3 @@
-@import url(e:\ohmyfood\dic\mixins.css);
 @font-face {
   font-family: "shirikhand";
   src: url(./font/Shrikhand-Regular.ttf);
@@ -158,8 +157,9 @@ div.fonctionnement h2 {
   position: relative;
 }
 
-div.fonctionnement div.choix-rest, div.fonctionnement div.compose-menu, div.fonctionnement div.diguiste {
-  width: 90%;
+div.fonctionnement .choisir .choix-rest, div.fonctionnement .choisir div.compose-menu, div.fonctionnement .choisir div.diguiste {
+  width: 100%;
+  max-width: 600px;
   height: 20px;
   background-color: red;
   background-color: #f6f6f6;
@@ -174,7 +174,7 @@ div.fonctionnement div.choix-rest, div.fonctionnement div.compose-menu, div.fonc
   margin: 25px auto;
 }
 
-div.fonctionnement div.choix-rest span, div.fonctionnement div.compose-menu span, div.fonctionnement div.diguiste span {
+div.fonctionnement .choisir .choix-rest span, div.fonctionnement .choisir div.compose-menu span, div.fonctionnement .choisir div.diguiste span {
   display: block;
   width: 25px;
   height: 25px;
@@ -187,7 +187,7 @@ div.fonctionnement div.choix-rest span, div.fonctionnement div.compose-menu span
   top: 17.5px;
 }
 
-div.fonctionnement div.choix-rest i, div.fonctionnement div.compose-menu i, div.fonctionnement div.diguiste i {
+div.fonctionnement .choisir .choix-rest i, div.fonctionnement .choisir div.compose-menu i, div.fonctionnement .choisir div.diguiste i {
   display: block;
   position: absolute;
   left: 32px;
@@ -195,7 +195,7 @@ div.fonctionnement div.choix-rest i, div.fonctionnement div.compose-menu i, div.
   font-size: 22px;
 }
 
-div.fonctionnement div.choix-rest p, div.fonctionnement div.compose-menu p, div.fonctionnement div.diguiste p {
+div.fonctionnement .choisir .choix-rest p, div.fonctionnement .choisir div.compose-menu p, div.fonctionnement .choisir div.diguiste p {
   position: absolute;
   left: 65px;
   top: 22px;
@@ -203,8 +203,17 @@ div.fonctionnement div.choix-rest p, div.fonctionnement div.compose-menu p, div.
   font-size: 18px;
 }
 
-div.fonctionnement div.choix-rest a, div.fonctionnement div.compose-menu a, div.fonctionnement div.diguiste a {
-  display: block;
+@media (min-width: 980px) and (min-width: 680px) {
+  .choisir {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .choisir a {
+    display: block;
+    width: 30%;
+    margin: 0 auto;
+  }
 }
 
 div.restaurant {
@@ -231,7 +240,6 @@ div.restaurant fieldset .image {
   width: 100%;
   position: relative;
   margin: 0 auto;
-  background-color: saddlebrown;
   border-radius: 15px 15px 0 0;
   overflow: hidden;
   -webkit-box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
@@ -257,7 +265,7 @@ div.restaurant fieldset .image img {
 }
 
 div.restaurant fieldset figcaption {
-  @incl width: 100%;
+  width: 100%;
   background-color: #fff;
   border-radius: 0 0 15px 15px;
   -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
@@ -265,7 +273,7 @@ div.restaurant fieldset figcaption {
   position: relative;
 }
 
-div.restaurant fieldset figcaption span i.vide {
+div.restaurant fieldset figcaption span.heart i.vide {
   position: absolute;
   top: 20px;
   right: 20px;
@@ -273,7 +281,7 @@ div.restaurant fieldset figcaption span i.vide {
   color: grey;
 }
 
-div.restaurant fieldset figcaption span i.solid {
+div.restaurant fieldset figcaption span.heart i.solid {
   position: absolute;
   top: 20px;
   right: 20px;
@@ -289,7 +297,7 @@ div.restaurant fieldset figcaption span i.solid {
   transition: .5s ease-in-out;
 }
 
-div.restaurant fieldset figcaption span i.solid:hover {
+div.restaurant fieldset figcaption span.heart i.solid:hover {
   background-position-y: 0;
 }
 
@@ -311,6 +319,19 @@ div.restaurant fieldset figcaption p {
   text-indent: 5px;
   padding-bottom: 15px;
   text-transform: capitalize;
+}
+
+@media (min-width: 980px) {
+  div.images-rest {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  div.images-rest fieldset {
+    width: 40%;
+  }
 }
 
 footer {

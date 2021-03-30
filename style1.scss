@@ -281,33 +281,15 @@ main{
                 @extend .entree;
                 transform:scaleY(0);
                 transform-origin: top;
-                animation:progress 1.5s 1.8s forwards ;
-               .first{
-                   animation:progress .5s 2s forwards;
-               }
-               .second{
-                animation:progress .5s 2.5s forwards;
-                }
-                .third{
-                    animation:progress .5s 3s forwards;   
-                }
-
-               
+                animation:progress 1.5s 1.5s forwards ;
+           
             }
             .dessert{
                 @extend .entree;
                 transform:scaleY(0);
                 transform-origin: top;
                 animation:progress 1.5s 2.6s forwards ;
-               .first{
-                   animation:progress .5s 3.5s forwards;
-               }
-               .second{
-                animation:progress .5s 4s forwards;
-                }
-                .third{
-                    animation:progress .5s 4.5s forwards;   
-                }
+            
                
             }
             .button{

@@ -309,23 +309,8 @@ main .menu .plat {
           transform: scaleY(0);
   -webkit-transform-origin: top;
           transform-origin: top;
-  -webkit-animation: progress 1.5s 1.8s forwards;
-          animation: progress 1.5s 1.8s forwards;
-}
-
-main .menu .plat .first, main .menu .plat .second, main .menu .plat .third, main .menu .plat .forth {
-  -webkit-animation: progress .5s 2s forwards;
-          animation: progress .5s 2s forwards;
-}
-
-main .menu .plat .second {
-  -webkit-animation: progress .5s 2.5s forwards;
-          animation: progress .5s 2.5s forwards;
-}
-
-main .menu .plat .third {
-  -webkit-animation: progress .5s 3s forwards;
-          animation: progress .5s 3s forwards;
+  -webkit-animation: progress 1.5s 1.5s forwards;
+          animation: progress 1.5s 1.5s forwards;
 }
 
 main .menu .dessert {
@@ -335,21 +320,6 @@ main .menu .dessert {
           transform-origin: top;
   -webkit-animation: progress 1.5s 2.6s forwards;
           animation: progress 1.5s 2.6s forwards;
-}
-
-main .menu .dessert .first, main .menu .dessert .second, main .menu .dessert .third, main .menu .dessert .forth {
-  -webkit-animation: progress .5s 3.5s forwards;
-          animation: progress .5s 3.5s forwards;
-}
-
-main .menu .dessert .second {
-  -webkit-animation: progress .5s 4s forwards;
-          animation: progress .5s 4s forwards;
-}
-
-main .menu .dessert .third {
-  -webkit-animation: progress .5s 4.5s forwards;
-          animation: progress .5s 4.5s forwards;
 }
 
 main .menu .button {

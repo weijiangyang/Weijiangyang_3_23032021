@@ -263,6 +263,7 @@ main .menu .entree .first .container_right, main .menu .plat .first .container_r
 }
 
 main .menu .entree .first .container_right i, main .menu .plat .first .container_right i, main .menu .dessert .first .container_right i, main .menu .entree .second .container_right i, main .menu .plat .second .container_right i, main .menu .dessert .second .container_right i, main .menu .entree .third .container_right i, main .menu .plat .third .container_right i, main .menu .dessert .third .container_right i, main .menu .entree .forth .container_right i, main .menu .plat .forth .container_right i, main .menu .dessert .forth .container_right i {
+  visibility: hidden;
   width: 50px;
   height: 50px;
   background-color: red;
@@ -289,7 +290,7 @@ main .menu .entree .first:hover .container_right, main .menu .plat .first:hover 
 }
 
 main .menu .entree .first:hover .container_right i, main .menu .plat .first:hover .container_right i, main .menu .dessert .first:hover .container_right i, main .menu .entree .second:hover .container_right i, main .menu .plat .second:hover .container_right i, main .menu .dessert .second:hover .container_right i, main .menu .entree .third:hover .container_right i, main .menu .plat .third:hover .container_right i, main .menu .dessert .third:hover .container_right i, main .menu .entree .forth:hover .container_right i, main .menu .plat .forth:hover .container_right i, main .menu .dessert .forth:hover .container_right i {
-  display: block;
+  visibility: visible;
   -webkit-transform: rotate(360deg);
           transform: rotate(360deg);
 }
@@ -318,7 +319,7 @@ main .menu .button:hover {
           box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
 }
 
-main footer {
+footer {
   width: 100%;
   background-color: #353535;
   margin: 0 auto;
@@ -328,11 +329,11 @@ main footer {
   padding-bottom: 20px;
 }
 
-main footer a {
+footer a {
   color: #fff;
 }
 
-main footer h2 {
+footer h2 {
   font-family: 'shirikhand';
   font-size: 22px;
   font-weight: 200;
@@ -341,18 +342,18 @@ main footer h2 {
   width: 90%;
 }
 
-main footer ul {
+footer ul {
   width: 90%;
   margin: 0 auto;
   font-family: 'riboto-medium';
   font-size: 18px;
 }
 
-main footer ul li {
+footer ul li {
   line-height: 35px;
 }
 
-main footer ul li i {
+footer ul li i {
   display: inline-block;
   width: 20px;
   margin-right: 16px;

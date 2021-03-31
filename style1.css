@@ -230,6 +230,7 @@ main .menu .entree .first .container_left h4, main .menu .plat .first .container
 }
 
 main .menu .entree .first .container_left .desc, main .menu .plat .first .container_left .desc, main .menu .dessert .first .container_left .desc, main .menu .entree .second .container_left .desc, main .menu .plat .second .container_left .desc, main .menu .dessert .second .container_left .desc, main .menu .entree .third .container_left .desc, main .menu .plat .third .container_left .desc, main .menu .dessert .third .container_left .desc, main .menu .entree .forth .container_left .desc, main .menu .plat .forth .container_left .desc, main .menu .dessert .forth .container_left .desc {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -348,13 +349,19 @@ main .menu .button:hover {
           box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
 }
 
-@media (min-width: 980px) {
+@media (min-width: 80px) {
   .menu-wrapper {
     width: 97%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin: auto;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .menu-wrapper .first .container-left, .menu-wrapper main .menu .entree .second .container-left, main .menu .entree .menu-wrapper .second .container-left, .menu-wrapper main .menu .plat .second .container-left, main .menu .plat .menu-wrapper .second .container-left, .menu-wrapper main .menu .dessert .second .container-left, main .menu .dessert .menu-wrapper .second .container-left, .menu-wrapper main .menu .entree .third .container-left, main .menu .entree .menu-wrapper .third .container-left, .menu-wrapper main .menu .plat .third .container-left, main .menu .plat .menu-wrapper .third .container-left, .menu-wrapper main .menu .dessert .third .container-left, main .menu .dessert .menu-wrapper .third .container-left, .menu-wrapper main .menu .entree .forth .container-left, main .menu .entree .menu-wrapper .forth .container-left, .menu-wrapper main .menu .plat .forth .container-left, main .menu .plat .menu-wrapper .forth .container-left, .menu-wrapper main .menu .dessert .forth .container-left, main .menu .dessert .menu-wrapper .forth .container-left {
+    width: 30%;
   }
 }
 

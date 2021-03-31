@@ -186,7 +186,7 @@ main{
                         overflow: hidden;
                     }
                 .desc{
-                 
+                 width: 100%;
                    
                    display:flex;
                    justify-content: space-between;
@@ -314,11 +314,16 @@ main{
             }
     }
 }
-@media (min-width:980px) {
+@media (min-width:80px) {
     .menu-wrapper{
         width: 97%;
         display:flex;
         margin:auto;
+        justify-content: space-between;
+        .first{.container-left{width: 30%;}}
+        
+        
+    
         
         }
         

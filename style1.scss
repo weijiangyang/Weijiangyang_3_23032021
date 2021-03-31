@@ -101,6 +101,7 @@ div.banniere-image{
 
     }
 }
+
 main{
     @include heart;
     width: 100%;
@@ -125,17 +126,20 @@ main{
     }
     .menu{
         margin-top:35px;
+    
         
         .entree{
+            
             transform:scaleY(0);
             transform-origin: top;
            animation:progress 1.5s .2s forwards ;
+           
           
             
             
             h3{
-                width: 97%;
-                margin:0 auto;
+                width: 90%;
+                margin:25px auto;
                 text-transform: uppercase;
                 font-family: 'Roboto-thin';
                 font-size: 18px;
@@ -145,21 +149,26 @@ main{
                     padding-bottom: 5px;
                 }
                 }
+            .menu-wrapper{
+                width: 90%;
+                margin:0 auto;
             .first{
+               
 
-                cursor:pointer;
+                
                 
                 display:flex;
+                
 
-                width: 97%;
-                // height: 70px;
-                // align-items: center;
-                background-color: #fff;
+                width: 100%;
+                
+               
                 margin:0 auto;
                 margin-top: 20px; 
                 margin-bottom:15px;
-                margin-right:10px;
-                margin-left:10px;
+
+                
+                margin-left:0px;
                 
                 border-radius: 15px;
                 box-shadow: 3px 2px 8px rgba(0, 0, 0 ,.2);
@@ -167,16 +176,16 @@ main{
                
                 
                 .container_left{
-                    width: 100%;
-                    // transform: scaleX(1);
+                     width: 100%;
+                   
                     margin-left: 10px;
-                    background-color:#fff;
+                    
                     transform-origin: right;
                     transition:1s ;
                     padding-top:15px;
                     padding-bottom:15px;
                     border-radius: 15px;
-                    h4{
+                    h4{width: 100%;
                         font-family: "riboto-black";
                         margin-bottom: 10px;
                         font-size: 18px;
@@ -187,7 +196,8 @@ main{
                     }
                 .desc{
                  
-                   
+                   width: 100%;
+                   margin:0 auto;
                    display:flex;
                    justify-content: space-between;
                     
@@ -263,18 +273,24 @@ main{
      
                     }
                 
-                }  
-                
-                    
+                } 
+             
             }
+           
+               
+            
             
  
             .second,.third,.forth{
                 @extend .first;
                
+                
+               
             }
-            
         }
+            
+    }     
+    
         
             
             
@@ -314,18 +330,45 @@ main{
             }
     }
 }
+
 @media (min-width:980px) {
-    .menu-wrapper{
-        width: 97%;
+    
+    main .menu .entree .menu-wrapper{
+      
         display:flex;
-        margin:auto;
-        
+        flex-wrap:wrap;
+        justify-content: space-between;
+        .first{
+            width: 32%;
+            
         }
+        }
+    }
+   
+        
+    
+        
+        
+        
+    
+        
+        
+        
+        
+        
+        
+        
+    
+        
+        
+        
+        
+        
         
             
         
         
-    }
+    
   
      footer{
         width: 100%;

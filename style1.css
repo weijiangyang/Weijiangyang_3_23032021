@@ -115,6 +115,7 @@ div.banniere-image img {
 main {
   width: 100%;
   background-color: #f6f6f6;
+  margin: auto;
   position: relative;
   top: -65px;
   border-radius: 40px 40px 0 0;

@@ -74,7 +74,7 @@ header {
 }
 
 header h1 {
-  font-family: "shirikhand";
+  font-family: 'Shrikhand', cursive;
   font-size: 30px;
   text-align: center;
   padding-top: 25px;
@@ -151,7 +151,7 @@ main span.heart i.solid:hover {
 }
 
 main h2 {
-  font-family: 'shirikhand';
+  font-family: 'Shrikhand', cursive;
   font-size: 25px;
   font-style: italic;
   padding-top: 35px;

@@ -328,7 +328,7 @@ main .menu .dessert {
           animation: progress 1.5s 2.6s forwards;
 }
 
-main .menu .button {
+main .button {
   width: 45%;
   height: 60px;
   background-color: #FF79DA;
@@ -345,7 +345,7 @@ main .menu .button {
           box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-main .menu .button:hover {
+main .button:hover {
   background: -webkit-gradient(linear, left top, left bottom, from(#fface8), to(#ae80e5));
   background: linear-gradient(180deg, #fface8, #ae80e5);
   -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);

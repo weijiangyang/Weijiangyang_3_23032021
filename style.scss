@@ -266,77 +266,78 @@ div.restaurant{
                 text-indent: 5px;
                 font-family: 'riboto-bold';
                 font-size:18px;
-                    line-height: 35px;
-                    padding-top:10px;
-                    &:first-letter{
-                        text-transform: capitalize;
-                    }
-                    
+                line-height: 35px;
+                padding-top:10px;
+                &:first-letter{
+                    text-transform: capitalize;
                 }
-                p{
-                   font-family: 'riboto-regular'; 
-                   font-size:18px;
-                   text-indent:5px;
-                   padding-bottom: 15px;
-                   text-transform: capitalize;
                     
-                }
             }
+            p{
+                font-family: 'riboto-regular'; 
+                font-size:18px;
+                text-indent:5px;
+                padding-bottom: 15px;
+                text-transform: capitalize;
+                    
+            }
+        }
                
            
-       }
-        
     }
-    @media (min-width:980px){
-        div.images-rest{
-            display:flex;
-            flex-wrap:wrap ;
-            fieldset{
-                width: 40%;
-            }
-            
-            }
+        
+}
+@media (min-width:980px){
+    div.images-rest{
+        display:flex;
+        flex-wrap:wrap ;
+        fieldset{
+            width: 40%;
         }
+            
+    }
+}
         
 
-    // }
-    footer{
-        width: 100%;
-        background-color: #353535;
-        margin:0 auto;
+ 
+footer{
+    width: 100%;
+    background-color: #353535;
+    margin:0 auto;
+    color:#fff;
+    margin-top:0px;
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+    a{
         color:#fff;
-        margin-top:0px;
-        margin-bottom: 25px;
-        padding-bottom: 20px;
-        a{
-            color:#fff;
-        }
-        
-        h2{
-            font-family: 'shirikhand';
-            font-size: 22px;
-            font-weight: 200;
-            padding:25px 0;
-            margin:0 auto;
-            width: 90%;
-            
-        }
-        ul{
-            width: 90%;
-            margin:0 auto;
-            font-family: 'riboto-medium';
-            font-size: 18px;
-           li{
-               line-height: 35px;
-               i{display: inline-block;
-                width: 20px;
-                   margin-right:16px;
-               }
-           }
-        }
-        
-        
     }
+        
+    h2{
+        font-family: 'shirikhand';
+        font-size: 22px;
+        font-weight: 200;
+        padding:25px 0;
+        margin:0 auto;
+        width: 90%;
+            
+    }
+    ul{
+        width: 90%;
+        margin:0 auto;
+        font-family: 'riboto-medium';
+        font-size: 18px;
+        li{
+            line-height: 35px;
+            i{
+                display: inline-block;
+                width: 20px;
+                margin-right:16px;
+            }
+        }
+    }
+        
+        
+}
 .container-spin{
     position:fixed;
     top:0;
@@ -349,9 +350,10 @@ div.restaurant{
     z-index: 999;
     transform:scale(0);
     
-    .circle{position:absolute;
-    left:45%;
-    top:35%;
+    .circle{
+        position:absolute;
+        left:45%;
+        top:35%;
         border:6px solid rgba(243,103,0,0.2);
         width: 80px;
         height: 80px;
@@ -371,7 +373,7 @@ div.restaurant{
 
          
         
-    }
+}
     
     
 

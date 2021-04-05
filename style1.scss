@@ -152,20 +152,13 @@ main{
                 margin:0 auto;
                 margin-top: 20px; 
                 margin-bottom:15px;
-
-                
                 margin-left:0px;
-                
                 border-radius: 15px;
                 box-shadow: 3px 2px 8px rgba(0, 0, 0 ,.2);
                 font-size:18px;
-               
-                
                 .container_left{
-                     width: 100%;
-                   
+                    width: 100%;
                     margin-left: 10px;
-                    
                     transform-origin: right;
                     transition:1s ;
                     padding-top:15px;
@@ -180,79 +173,74 @@ main{
                         line-height: 25px;
                         overflow: hidden;
                     }
-                .desc{
-                 
-                   width: 100%;
-                   margin:0 auto;
-                   display:flex;
-                   justify-content: space-between;
+                    .desc{
+                        width: 100%;
+                        margin:0 auto;
+                        display:flex;
+                        justify-content: space-between;
                     
-                    p{
-                    font-family: "riboto-thin";
-                    font-size: 16px;
-                    white-space: nowrap;
-                    text-overflow: ellipsis;
-                    overflow: hidden;
+                        p{
+                            font-family: "riboto-thin";
+                            font-size: 16px;
+                            white-space: nowrap;
+                            text-overflow: ellipsis;
+                            overflow: hidden;
                     
-                    } 
-                    span{
-                        display:block;
-                        font-family: "riboto-black";
-                        font-size: 16px;
-                        margin-right:25px;
-                        margin-left:15px;
-                    }    
-                   }     
+                        } 
+                        span{
+                            display:block;
+                            font-family: "riboto-black";
+                            font-size: 16px;
+                            margin-right:25px;
+                            margin-left:15px;
+                        }    
+                    }     
                         
-                 }   
+                }   
                     
                     
                     
                
                .container_right{
     
-                width: 0;
-                border-radius: 0 15px 15px 0;
-                
-                
-                 transform-origin: right;
-                 
-                 background-color: $color-tertiary;
-                 transition:1s;
-                 
-                 display:flex;
-                 justify-content: center;
-                 align-items: center;
-                 i{visibility: hidden;
-                    width: 50px;
-                    height: 50px;
-                    background-color: red;
-                    text-align: center;
-                    line-height: 50px;
-                    border-radius: 50%;
-                    font-size: 30px;
-                    background-color: #fff;
-                    color:$color-tertiary;
-                    transform: rotate(0deg);
-                    transition:transform 1s;
+                    width: 0;
+                    border-radius: 0 15px 15px 0;
+                    transform-origin: right;
+                    background-color: $color-tertiary;
+                    transition:1s;
+                    display:flex;
+                    justify-content: center;
+                    align-items: center;
+                    i{
+                        visibility: hidden;
+                        width: 50px;
+                        height: 50px;
+                        text-align: center;
+                        line-height: 50px;
+                        border-radius: 50%;
+                        font-size: 30px;
+                        background-color: #fff;
+                        color:$color-tertiary;
+                        transform: rotate(0deg);
+                        transition:transform 1s;
               
-                  } 
+                    } 
                   
                 }
             
-                  &:hover{
-                      .container_left{
-                          width: 70%;
+                &:hover{
+                    .container_left{
+                        width: 70%;
                           
-                       }
+                    }
                         
                     .container_right{
                         
                         
                         width: 30%;
-                    i{
-                         visibility: visible;
-                         transform:rotate(360deg);
+                        i{
+                            visibility: visible;
+                            transform:rotate(360deg);
                         
                         }
                         
@@ -262,20 +250,16 @@ main{
                 } 
              
             }
-           
-               
-            
-            
  
             .second,.third,.forth{
                 @extend .first;
-               
+            }   
                 
-               
-            }
-        }
+        }       
+    }        
+        
             
-    }     
+         
     
         
             

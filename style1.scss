@@ -70,8 +70,8 @@ header{
         text-align: center;
         padding-top:25px;
         padding-bottom: 10px;
-        
-    }
+    }    
+    
     i{
         display:block;
         font-size: 20px;
@@ -98,14 +98,13 @@ div.banniere-image{
         right:0;
         top:0;
         bottom:0;
-
     }
-}
+}    
+
 
 main{
     @include heart;
     width: 100%;
-    
     background-color:#f6f6f6;
     margin:auto;
     position:relative;
@@ -127,17 +126,11 @@ main{
     }
     .menu{
         margin-top:35px;
-    
-        
         .entree{
-            
             transform:scaleY(0);
             transform-origin: top;
-           animation:progress 1.5s .2s forwards ;
-           
-          
-            
-            
+            animation:progress 1.5s .2s forwards;
+     
             h3{
                 width: 90%;
                 margin:15px auto;
@@ -149,21 +142,13 @@ main{
                     border-bottom: 2px solid $color-tertiary;
                     padding-bottom: 5px;
                 }
-                }
+            }
             .menu-wrapper{
                 width: 95%;
                 margin:0 auto;
             .first{
-               
-
-                
-                
                 display:flex;
-                
-
                 width: 100%;
-                
-               
                 margin:0 auto;
                 margin-top: 20px; 
                 margin-bottom:15px;

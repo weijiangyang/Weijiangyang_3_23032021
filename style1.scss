@@ -3,59 +3,26 @@ $color-secondary:#FF79DA;
 $color-tertiary:#99E2D0;
 
 @import "./dic/mixins.scss";
-@font-face{
-    font-family: "shirikhand";
-    src:url(./font/Shrikhand-Regular.ttf);
 
-}
 @font-face{
     font-family:"Roboto-black";
-    src:url(./font/Roboto-Black.ttf);
-}
-@font-face{
-    font-family: "Roboto-blackitalic";
-    src:url(./font/Roboto-BlackItalic.ttf);
-}
-@font-face{
-    font-family: "Roboto-bold";
-    src:url(./font/Roboto-Bold.ttf)
-}
-@font-face{
-    font-family:"Roboto-bolditalic";
-    src:url(./font/Roboto-BoldItalic.ttf);
-}
-@font-face{ 
-    font-family: "Roboto-italic";
-    src:url(./font/Roboto-Italic.ttf)
-}
-@font-face{
-    font-family: "Roboto-light";
-    src:url(./font/Roboto-Light.ttf);
-}
-@font-face{
-    font-family:"Roboto-lightitalic";
-    src:url(./font/Roboto-LightItalic.ttf);
-}
-@font-face{
-    font-family: "Roboto-medium";
-    src:url(./font/Roboto-Medium.ttf);
-}
-@font-face{
-    font-family: "Roboto-mediumitalic";
-    src:url(./font/Roboto-MediumItalic.ttf);
+    src:url(https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap);
 }
 @font-face{
     font-family: "Roboto-regular";
-    src:url(./font/Roboto-Regular.ttf)
+    src:url(https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap);
 }
+
+@font-face{
+    font-family: "Roboto-medium";
+    src:url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);
+}
+
 @font-face{
     font-family: "Roboto-thin";
-    src:url(./font/Roboto-Thin.ttf)
+    src:url(https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap)
 }
-@font-face{
-    font-family: "Roboto-thinitalic";
-    src:url(./font/Roboto-ThinItalic.ttf);
-}
+
 a{
     text-decoration: none;
     color:black;
@@ -136,6 +103,7 @@ main{
                 margin:15px auto;
                 text-transform: uppercase;
                 font-family: 'Roboto-thin';
+                font-weight: 100;
                 font-size: 18px;
                 
                 span{
@@ -181,7 +149,7 @@ main{
                             justify-content: space-between;
                     
                             p{
-                                font-family: "riboto-thin";
+                                font-family: "roboto-regular";
                                 font-size: 16px;
                                 white-space: nowrap;
                                 text-overflow: ellipsis;
@@ -289,7 +257,7 @@ main{
         text-align: center;
         line-height: 60px;
         border-radius: 40px;
-        font-family: "riboto-bold";
+        font-family: "riboto-black";
         background:linear-gradient(180deg,$color-secondary,$color-primary);
         color:white;
         font-size: 18px;
@@ -330,7 +298,7 @@ footer{
     }
         
     h2{
-        font-family: 'shirikhand';
+        font-family:'Shrikhand', cursive;
         font-size: 22px;
         font-weight: 200;
         padding:25px 0;
@@ -341,7 +309,8 @@ footer{
     ul{
         width: 90%;
         margin:0 auto;
-        font-family: 'riboto-medium';
+        font-family: 'Roboto-medium', sans-serif;
+        
         font-size: 18px;
         li{
             line-height: 35px;

@@ -222,7 +222,7 @@ div.restaurant{
         font-family: 'Roboto-Bold';
         font-size: 30px;
     }
-    fieldset{
+    .field-set{
         width: 85%;
         margin:15px auto;
     
@@ -251,7 +251,7 @@ div.restaurant{
                 object-fit: cover;
             }
         }
-        figcaption {
+        .fig-caption {
             @include heart;
                
             width: 100%;
@@ -291,7 +291,7 @@ div.restaurant{
     div.images-rest{
         display:flex;
         flex-wrap:wrap ;
-        fieldset{
+        .field-set{
             width: 40%;
         }
             

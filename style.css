@@ -233,12 +233,12 @@ div.restaurant h2 {
   font-size: 30px;
 }
 
-div.restaurant fieldset {
+div.restaurant .field-set {
   width: 85%;
   margin: 15px auto;
 }
 
-div.restaurant fieldset .image {
+div.restaurant .field-set .image {
   width: 100%;
   position: relative;
   margin: 0 auto;
@@ -248,13 +248,13 @@ div.restaurant fieldset .image {
           box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
 }
 
-div.restaurant fieldset .image::before {
+div.restaurant .field-set .image::before {
   content: '';
   display: block;
   padding-top: 52%;
 }
 
-div.restaurant fieldset .image img {
+div.restaurant .field-set .image img {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -266,7 +266,7 @@ div.restaurant fieldset .image img {
      object-fit: cover;
 }
 
-div.restaurant fieldset figcaption {
+div.restaurant .field-set .fig-caption {
   width: 100%;
   background-color: #fff;
   border-radius: 0 0 15px 15px;
@@ -275,7 +275,7 @@ div.restaurant fieldset figcaption {
   position: relative;
 }
 
-div.restaurant fieldset figcaption span.heart i.vide {
+div.restaurant .field-set .fig-caption span.heart i.vide {
   position: absolute;
   top: 20px;
   right: 20px;
@@ -283,7 +283,7 @@ div.restaurant fieldset figcaption span.heart i.vide {
   color: grey;
 }
 
-div.restaurant fieldset figcaption span.heart i.solid {
+div.restaurant .field-set .fig-caption span.heart i.solid {
   position: absolute;
   top: 20px;
   right: 20px;
@@ -299,11 +299,11 @@ div.restaurant fieldset figcaption span.heart i.solid {
   transition: .5s ease-in-out;
 }
 
-div.restaurant fieldset figcaption span.heart i.solid:hover {
+div.restaurant .field-set .fig-caption span.heart i.solid:hover {
   background-position-y: 0;
 }
 
-div.restaurant fieldset figcaption h3 {
+div.restaurant .field-set .fig-caption h3 {
   text-indent: 5px;
   font-family: 'riboto-bold';
   font-size: 18px;
@@ -311,11 +311,11 @@ div.restaurant fieldset figcaption h3 {
   padding-top: 10px;
 }
 
-div.restaurant fieldset figcaption h3:first-letter {
+div.restaurant .field-set .fig-caption h3:first-letter {
   text-transform: capitalize;
 }
 
-div.restaurant fieldset figcaption p {
+div.restaurant .field-set .fig-caption p {
   font-family: 'riboto-regular';
   font-size: 18px;
   text-indent: 5px;
@@ -331,7 +331,7 @@ div.restaurant fieldset figcaption p {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-  div.images-rest fieldset {
+  div.images-rest .field-set {
     width: 40%;
   }
 }

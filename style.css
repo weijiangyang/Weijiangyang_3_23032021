@@ -43,17 +43,17 @@ header h1 {
 }
 
 .rechercher .map {
-  display: -webkit-box;
-  display: -ms-flexbox;
+  /* display: -webkit-box; */
+  /* display: -ms-flexbox; */
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
+  /* -webkit-box-pack: center; */
+      /* -ms-flex-pack: center; */
           justify-content: center;
   padding-top: 20px;
   padding-bottom: 20px;
   font-size: 18px;
   font-family: "roboto-medium";
-  background: -webkit-gradient(linear, left top, left bottom, from(#ECECEC), color-stop(2%), color-stop(#D0D0D0), color-stop(6%), to(#EAEAEA));
+  /* background: -webkit-gradient(linear, left top, left bottom, from(#ECECEC), color-stop(2%), color-stop(#D0D0D0), color-stop(6%), to(#EAEAEA)); */
   background: linear-gradient(180deg, #ECECEC, 2%, #D0D0D0, 6%, #EAEAEA);
   margin-bottom: 45px;
 }
@@ -86,18 +86,18 @@ header h1 {
   font-size: 18px;
   background: linear-gradient(170deg, #FF79DA, #9356DC);
   color: white;
-  -webkit-transition: .5s;
+  /* -webkit-transition: .5s; */
   transition: .5s;
   line-height: 16px;
   border-radius: 28px;
   margin-bottom: 30px;
-  -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  /* -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); */
           box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
 }
 
 .rechercher .button-explore a:hover {
   background: linear-gradient(170deg, #fface8, #ae80e5);
-  -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8);
+  /* -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8); */
           box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8);
 }
 
@@ -120,11 +120,11 @@ div.fonctionnement .choisir .choix-rest, div.fonctionnement .choisir div.compose
   height: 20px;
   background-color: red;
   background-color: #f6f6f6;
-  -webkit-box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+  /* -webkit-box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3); */
           box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
   border-radius: 15px;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  /* display: -webkit-box; */
+  /* display: -ms-flexbox; */
   display: flex;
   height: 60px;
   position: relative;
@@ -162,8 +162,8 @@ div.fonctionnement .choisir .choix-rest p, div.fonctionnement .choisir div.compo
 
 @media (min-width: 980px) {
   .choisir {
-    display: -webkit-box;
-    display: -ms-flexbox;
+    /* display: -webkit-box; */
+    /* display: -ms-flexbox; */
     display: flex;
   }
   .choisir a {
@@ -199,7 +199,7 @@ div.restaurant .field-set .image {
   margin: 0 auto;
   border-radius: 15px 15px 0 0;
   overflow: hidden;
-  -webkit-box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
+  /* -webkit-box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3); */
           box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
 }
 
@@ -217,7 +217,7 @@ div.restaurant .field-set .image img {
   right: 0;
   top: 0;
   bottom: 0;
-  -o-object-fit: cover;
+  /* -o-object-fit: cover; */
      object-fit: cover;
 }
 
@@ -225,7 +225,7 @@ div.restaurant .field-set .fig-caption {
   width: 100%;
   background-color: #fff;
   border-radius: 0 0 15px 15px;
-  -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  /* -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); */
           box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
   position: relative;
 }
@@ -243,14 +243,14 @@ div.restaurant .field-set .fig-caption span.heart i.solid {
   top: 20px;
   right: 20px;
   font-size: 35px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC));
+  /* background: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC)); */
   background: linear-gradient(to bottom, #FF79DA, #9356DC);
   background-position-y: 80px;
   background-repeat: no-repeat;
-  background-clip: text;
-  -webkit-background-clip: text;
+  /* background-clip: text; */
+  -webkit-background-clip: text; 
   color: transparent;
-  -webkit-transition: .5s ease-in-out;
+  /* -webkit-transition: .5s ease-in-out; */
   transition: .5s ease-in-out;
 }
 
@@ -280,10 +280,10 @@ div.restaurant .field-set .fig-caption p {
 
 @media (min-width: 980px) {
   div.images-rest {
-    display: -webkit-box;
-    display: -ms-flexbox;
+    /* display: -webkit-box; */
+    /* display: -ms-flexbox; */
     display: flex;
-    -ms-flex-wrap: wrap;
+    /* -ms-flex-wrap: wrap; */
         flex-wrap: wrap;
   }
   div.images-rest .field-set {
@@ -338,12 +338,12 @@ footer ul li i {
   background-color: #eaeaea;
   width: 100%;
   height: 100%;
-  -webkit-transform: scale(1);
+  /* -webkit-transform: scale(1); */
           transform: scale(1);
-  -webkit-animation: hide 2s;
+  /* -webkit-animation: hide 2s; */
           animation: hide 2s;
   z-index: 999;
-  -webkit-transform: scale(0);
+  /* -webkit-transform: scale(0); */
           transform: scale(0);
 }
 
@@ -356,11 +356,11 @@ footer ul li i {
   height: 80px;
   border-radius: 50%;
   border-top-color: #f36700;
-  -webkit-animation: rotate 2s infinite ease-in-out alternate;
+  /* -webkit-animation: rotate 2s infinite ease-in-out alternate; */
           animation: rotate 2s infinite ease-in-out alternate;
 }
 
-@-webkit-keyframes rotate {
+/* @-webkit-keyframes rotate {
   0% {
     -webkit-transform: rotate(0);
             transform: rotate(0);
@@ -369,20 +369,20 @@ footer ul li i {
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg);
   }
-}
+} */
 
 @keyframes rotate {
   0% {
-    -webkit-transform: rotate(0);
+    /* -webkit-transform: rotate(0); */
             transform: rotate(0);
   }
   100% {
-    -webkit-transform: rotate(360deg);
+    /* -webkit-transform: rotate(360deg); */
             transform: rotate(360deg);
   }
 }
 
-@-webkit-keyframes hide {
+/* @-webkit-keyframes hide {
   0% {
     -webkit-transform: scale(1);
             transform: scale(1);
@@ -391,15 +391,15 @@ footer ul li i {
     -webkit-transform: scale(1);
             transform: scale(1);
   }
-}
+} */
 
 @keyframes hide {
   0% {
-    -webkit-transform: scale(1);
+    /* -webkit-transform: scale(1); */
             transform: scale(1);
   }
   100% {
-    -webkit-transform: scale(1);
+    /* -webkit-transform: scale(1); */
             transform: scale(1);
   }
 }

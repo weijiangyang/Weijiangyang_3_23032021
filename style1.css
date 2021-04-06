@@ -59,7 +59,7 @@ div.banniere-image img {
   position: absolute;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
+  /* -o-object-fit: cover; */
      object-fit: cover;
   left: 0;
   right: 0;
@@ -90,14 +90,14 @@ main span.heart i.solid {
   top: 20px;
   right: 20px;
   font-size: 35px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC));
+  /* background: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC)); */
   background: linear-gradient(to bottom, #FF79DA, #9356DC);
   background-position-y: 80px;
   background-repeat: no-repeat;
-  background-clip: text;
+  /* background-clip: text; */
   -webkit-background-clip: text;
   color: transparent;
-  -webkit-transition: .5s ease-in-out;
+  /* -webkit-transition: .5s ease-in-out; */
   transition: .5s ease-in-out;
 }
 
@@ -123,11 +123,11 @@ main .menu {
 }
 
 main .menu .entree, main .menu .plat, main .menu .dessert {
-  -webkit-transform: scaleY(0);
+  /* -webkit-transform: scaleY(0); */
           transform: scaleY(0);
-  -webkit-transform-origin: top;
+  /* -webkit-transform-origin: top; */
           transform-origin: top;
-  -webkit-animation: progress 1.5s .2s forwards;
+  /* -webkit-animation: progress 1.5s .2s forwards; */
           animation: progress 1.5s .2s forwards;
 }
 
@@ -151,8 +151,8 @@ main .menu .entree .menu-wrapper, main .menu .plat .menu-wrapper, main .menu .de
 }
 
 main .menu .entree .menu-wrapper .first, main .menu .plat .menu-wrapper .first, main .menu .dessert .menu-wrapper .first, main .menu .entree .menu-wrapper .second, main .menu .plat .menu-wrapper .second, main .menu .dessert .menu-wrapper .second, main .menu .entree .menu-wrapper .third, main .menu .plat .menu-wrapper .third, main .menu .dessert .menu-wrapper .third, main .menu .entree .menu-wrapper .forth, main .menu .plat .menu-wrapper .forth, main .menu .dessert .menu-wrapper .forth {
-  display: -webkit-box;
-  display: -ms-flexbox;
+  /* display: -webkit-box; */
+  /* display: -ms-flexbox; */
   display: flex;
   width: 100%;
   margin: 0 auto;
@@ -160,7 +160,7 @@ main .menu .entree .menu-wrapper .first, main .menu .plat .menu-wrapper .first, 
   margin-bottom: 15px;
   margin-left: 0px;
   border-radius: 15px;
-  -webkit-box-shadow: 3px 2px 8px rgba(0, 0, 0, 0.2);
+  /* -webkit-box-shadow: 3px 2px 8px rgba(0, 0, 0, 0.2); */
           box-shadow: 3px 2px 8px rgba(0, 0, 0, 0.2);
   font-size: 18px;
 }
@@ -168,9 +168,9 @@ main .menu .entree .menu-wrapper .first, main .menu .plat .menu-wrapper .first, 
 main .menu .entree .menu-wrapper .first .container_left, main .menu .plat .menu-wrapper .first .container_left, main .menu .dessert .menu-wrapper .first .container_left, main .menu .entree .menu-wrapper .second .container_left, main .menu .plat .menu-wrapper .second .container_left, main .menu .dessert .menu-wrapper .second .container_left, main .menu .entree .menu-wrapper .third .container_left, main .menu .plat .menu-wrapper .third .container_left, main .menu .dessert .menu-wrapper .third .container_left, main .menu .entree .menu-wrapper .forth .container_left, main .menu .plat .menu-wrapper .forth .container_left, main .menu .dessert .menu-wrapper .forth .container_left {
   width: 100%;
   margin-left: 10px;
-  -webkit-transform-origin: right;
+  /* -webkit-transform-origin: right; */
           transform-origin: right;
-  -webkit-transition: 1s;
+  /* -webkit-transition: 1s; */
   transition: 1s;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -191,11 +191,11 @@ main .menu .entree .menu-wrapper .first .container_left h4, main .menu .plat .me
 main .menu .entree .menu-wrapper .first .container_left .desc, main .menu .plat .menu-wrapper .first .container_left .desc, main .menu .dessert .menu-wrapper .first .container_left .desc, main .menu .entree .menu-wrapper .second .container_left .desc, main .menu .plat .menu-wrapper .second .container_left .desc, main .menu .dessert .menu-wrapper .second .container_left .desc, main .menu .entree .menu-wrapper .third .container_left .desc, main .menu .plat .menu-wrapper .third .container_left .desc, main .menu .dessert .menu-wrapper .third .container_left .desc, main .menu .entree .menu-wrapper .forth .container_left .desc, main .menu .plat .menu-wrapper .forth .container_left .desc, main .menu .dessert .menu-wrapper .forth .container_left .desc {
   width: 100%;
   margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  /* display: -webkit-box; */
+  /* display: -ms-flexbox; */
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
+  /* -webkit-box-pack: justify; */
+      /* -ms-flex-pack: justify; */
           justify-content: space-between;
 }
 
@@ -218,19 +218,19 @@ main .menu .entree .menu-wrapper .first .container_left .desc span, main .menu .
 main .menu .entree .menu-wrapper .first .container_right, main .menu .plat .menu-wrapper .first .container_right, main .menu .dessert .menu-wrapper .first .container_right, main .menu .entree .menu-wrapper .second .container_right, main .menu .plat .menu-wrapper .second .container_right, main .menu .dessert .menu-wrapper .second .container_right, main .menu .entree .menu-wrapper .third .container_right, main .menu .plat .menu-wrapper .third .container_right, main .menu .dessert .menu-wrapper .third .container_right, main .menu .entree .menu-wrapper .forth .container_right, main .menu .plat .menu-wrapper .forth .container_right, main .menu .dessert .menu-wrapper .forth .container_right {
   width: 0;
   border-radius: 0 15px 15px 0;
-  -webkit-transform-origin: right;
+  /* -webkit-transform-origin: right; */
           transform-origin: right;
   background-color: #99E2D0;
-  -webkit-transition: 1s;
+  /* -webkit-transition: 1s; */
   transition: 1s;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  /* display: -webkit-box; */
+  /* display: -ms-flexbox; */
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
+  /* -webkit-box-pack: center; */
+      /* -ms-flex-pack: center; */
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
+  /* -webkit-box-align: center; */
+      /* -ms-flex-align: center; */
           align-items: center;
 }
 
@@ -244,12 +244,12 @@ main .menu .entree .menu-wrapper .first .container_right i, main .menu .plat .me
   font-size: 30px;
   background-color: #fff;
   color: #99E2D0;
-  -webkit-transform: rotate(0deg);
+  /* -webkit-transform: rotate(0deg); */
           transform: rotate(0deg);
-  -webkit-transition: -webkit-transform 1s;
-  transition: -webkit-transform 1s;
+  /* -webkit-transition: -webkit-transform 1s; */
+  /* transition: -webkit-transform 1s; */
   transition: transform 1s;
-  transition: transform 1s, -webkit-transform 1s;
+  /* transition: transform 1s, -webkit-transform 1s; */
 }
 
 main .menu .entree .menu-wrapper .first:hover .container_left, main .menu .plat .menu-wrapper .first:hover .container_left, main .menu .dessert .menu-wrapper .first:hover .container_left, main .menu .entree .menu-wrapper .second:hover .container_left, main .menu .plat .menu-wrapper .second:hover .container_left, main .menu .dessert .menu-wrapper .second:hover .container_left, main .menu .entree .menu-wrapper .third:hover .container_left, main .menu .plat .menu-wrapper .third:hover .container_left, main .menu .dessert .menu-wrapper .third:hover .container_left, main .menu .entree .menu-wrapper .forth:hover .container_left, main .menu .plat .menu-wrapper .forth:hover .container_left, main .menu .dessert .menu-wrapper .forth:hover .container_left {
@@ -262,25 +262,25 @@ main .menu .entree .menu-wrapper .first:hover .container_right, main .menu .plat
 
 main .menu .entree .menu-wrapper .first:hover .container_right i, main .menu .plat .menu-wrapper .first:hover .container_right i, main .menu .dessert .menu-wrapper .first:hover .container_right i, main .menu .entree .menu-wrapper .second:hover .container_right i, main .menu .plat .menu-wrapper .second:hover .container_right i, main .menu .dessert .menu-wrapper .second:hover .container_right i, main .menu .entree .menu-wrapper .third:hover .container_right i, main .menu .plat .menu-wrapper .third:hover .container_right i, main .menu .dessert .menu-wrapper .third:hover .container_right i, main .menu .entree .menu-wrapper .forth:hover .container_right i, main .menu .plat .menu-wrapper .forth:hover .container_right i, main .menu .dessert .menu-wrapper .forth:hover .container_right i {
   visibility: visible;
-  -webkit-transform: rotate(360deg);
+  /* -webkit-transform: rotate(360deg); */
           transform: rotate(360deg);
 }
 
 main .menu .plat {
-  -webkit-transform: scaleY(0);
+  /* -webkit-transform: scaleY(0); */
           transform: scaleY(0);
-  -webkit-transform-origin: top;
+  /* -webkit-transform-origin: top; */
           transform-origin: top;
-  -webkit-animation: progress 1.5s 1.5s forwards;
+  /* -webkit-animation: progress 1.5s 1.5s forwards; */
           animation: progress 1.5s 1.5s forwards;
 }
 
 main .menu .dessert {
-  -webkit-transform: scaleY(0);
+  /* -webkit-transform: scaleY(0); */
           transform: scaleY(0);
-  -webkit-transform-origin: top;
+  /* -webkit-transform-origin: top; */
           transform-origin: top;
-  -webkit-animation: progress 1.5s 2.6s forwards;
+  /* -webkit-animation: progress 1.5s 2.6s forwards; */
           animation: progress 1.5s 2.6s forwards;
 }
 
@@ -293,30 +293,30 @@ main .button {
   line-height: 60px;
   border-radius: 40px;
   font-family: "riboto-black";
-  background: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC));
+  /* background: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC)); */
   background: linear-gradient(180deg, #FF79DA, #9356DC);
   color: white;
   font-size: 18px;
-  -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  /* -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); */
           box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 main .button:hover {
-  background: -webkit-gradient(linear, left top, left bottom, from(#fface8), to(#ae80e5));
+  /* background: -webkit-gradient(linear, left top, left bottom, from(#fface8), to(#ae80e5)); */
   background: linear-gradient(180deg, #fface8, #ae80e5);
-  -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+  /* -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6); */
           box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
 }
 
 @media (min-width: 980px) {
   main .menu .entree .menu-wrapper, main .menu .plat .menu-wrapper, main .menu .dessert .menu-wrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
+    /* display: -webkit-box; */
+    /* display: -ms-flexbox; */
     display: flex;
-    -ms-flex-wrap: wrap;
+    /* -ms-flex-wrap: wrap; */
         flex-wrap: wrap;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
+    /* -webkit-box-pack: justify; */
+        /* -ms-flex-pack: justify; */
             justify-content: space-between;
   }
   main .menu .entree .menu-wrapper .first, main .menu .plat .menu-wrapper .first, main .menu .dessert .menu-wrapper .first, main .menu .entree .menu-wrapper .second, main .menu .plat .menu-wrapper .second, main .menu .dessert .menu-wrapper .second, main .menu .entree .menu-wrapper .third, main .menu .plat .menu-wrapper .third, main .menu .dessert .menu-wrapper .third, main .menu .entree .menu-wrapper .forth, main .menu .plat .menu-wrapper .forth, main .menu .dessert .menu-wrapper .forth {
@@ -364,16 +364,16 @@ footer ul li i {
   margin-right: 16px;
 }
 
-@-webkit-keyframes progress {
+/* @-webkit-keyframes progress {
   100% {
     -webkit-transform: scaleY(1);
             transform: scaleY(1);
   }
-}
+} */
 
 @keyframes progress {
   100% {
-    -webkit-transform: scaleY(1);
+    /* -webkit-transform: scaleY(1); */
             transform: scaleY(1);
   }
 }

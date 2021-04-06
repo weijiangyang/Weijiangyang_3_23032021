@@ -60,7 +60,7 @@ div.banniere-image img {
   width: 100%;
   height: 100%;
   /* -o-object-fit: cover; */
-     object-fit: cover;
+  object-fit: cover;
   left: 0;
   right: 0;
   top: 0;
@@ -305,10 +305,11 @@ main .button:hover {
   /* background: -webkit-gradient(linear, left top, left bottom, from(#fface8), to(#ae80e5)); */
   background: linear-gradient(180deg, #fface8, #ae80e5);
   /* -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6); */
-          box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
 }
 
 @media (min-width: 980px) {
+  
   main .menu .entree .menu-wrapper, main .menu .plat .menu-wrapper, main .menu .dessert .menu-wrapper {
     /* display: -webkit-box; */
     /* display: -ms-flexbox; */
@@ -318,7 +319,9 @@ main .button:hover {
     /* -webkit-box-pack: justify; */
         /* -ms-flex-pack: justify; */
             justify-content: space-between;
+            
   }
+  
   main .menu .entree .menu-wrapper .first, main .menu .plat .menu-wrapper .first, main .menu .dessert .menu-wrapper .first, main .menu .entree .menu-wrapper .second, main .menu .plat .menu-wrapper .second, main .menu .dessert .menu-wrapper .second, main .menu .entree .menu-wrapper .third, main .menu .plat .menu-wrapper .third, main .menu .dessert .menu-wrapper .third, main .menu .entree .menu-wrapper .forth, main .menu .plat .menu-wrapper .forth, main .menu .dessert .menu-wrapper .forth {
     width: 32%;
   }

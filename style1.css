@@ -63,7 +63,7 @@ div.banniere-image img {
   object-fit: cover;
   left: 0;
   right: 0;
-  top: 0;
+  top: 0px;
   bottom: 0;
 }
 
@@ -324,6 +324,17 @@ main .button:hover {
   
   main .menu .entree .menu-wrapper .first, main .menu .plat .menu-wrapper .first, main .menu .dessert .menu-wrapper .first, main .menu .entree .menu-wrapper .second, main .menu .plat .menu-wrapper .second, main .menu .dessert .menu-wrapper .second, main .menu .entree .menu-wrapper .third, main .menu .plat .menu-wrapper .third, main .menu .dessert .menu-wrapper .third, main .menu .entree .menu-wrapper .forth, main .menu .plat .menu-wrapper .forth, main .menu .dessert .menu-wrapper .forth {
     width: 32%;
+  }
+  
+  div.banniere-image::before {
+    
+    padding-top: 32%;
+    
+  }
+  
+  
+  header h1{
+    font-size:40px;
   }
 }
 

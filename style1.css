@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: "Roboto-black";
   src: url(https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap);
 }
@@ -16,7 +16,7 @@
 @font-face {
   font-family: "Roboto-thin";
   src: url(https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap);
-}
+} */
 
 a {
   text-decoration: none;
@@ -135,8 +135,8 @@ main .menu .entree h3, main .menu .plat h3, main .menu .dessert h3 {
   width: 90%;
   margin: 15px auto;
   text-transform: uppercase;
-  font-family: 'Roboto-thin';
-  font-weight: 100;
+  font-family:'Roboto', sans-serif;
+  font-weight: 400;
   font-size: 18px;
 }
 
@@ -179,9 +179,9 @@ main .menu .entree .menu-wrapper .first .container_left, main .menu .plat .menu-
 
 main .menu .entree .menu-wrapper .first .container_left h4, main .menu .plat .menu-wrapper .first .container_left h4, main .menu .dessert .menu-wrapper .first .container_left h4, main .menu .entree .menu-wrapper .second .container_left h4, main .menu .plat .menu-wrapper .second .container_left h4, main .menu .dessert .menu-wrapper .second .container_left h4, main .menu .entree .menu-wrapper .third .container_left h4, main .menu .plat .menu-wrapper .third .container_left h4, main .menu .dessert .menu-wrapper .third .container_left h4, main .menu .entree .menu-wrapper .forth .container_left h4, main .menu .plat .menu-wrapper .forth .container_left h4, main .menu .dessert .menu-wrapper .forth .container_left h4 {
   width: 95%;
-  font-family: "riboto-black";
+  font-family:'Roboto', sans-serif ;
   margin-bottom: 10px;
-  font-size: 18px;
+  font-size: 20px;
   white-space: nowrap;
   text-overflow: ellipsis;
   line-height: 25px;
@@ -200,8 +200,8 @@ main .menu .entree .menu-wrapper .first .container_left .desc, main .menu .plat 
 }
 
 main .menu .entree .menu-wrapper .first .container_left .desc p, main .menu .plat .menu-wrapper .first .container_left .desc p, main .menu .dessert .menu-wrapper .first .container_left .desc p, main .menu .entree .menu-wrapper .second .container_left .desc p, main .menu .plat .menu-wrapper .second .container_left .desc p, main .menu .dessert .menu-wrapper .second .container_left .desc p, main .menu .entree .menu-wrapper .third .container_left .desc p, main .menu .plat .menu-wrapper .third .container_left .desc p, main .menu .dessert .menu-wrapper .third .container_left .desc p, main .menu .entree .menu-wrapper .forth .container_left .desc p, main .menu .plat .menu-wrapper .forth .container_left .desc p, main .menu .dessert .menu-wrapper .forth .container_left .desc p {
-  font-family: "roboto-regular";
-  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
@@ -209,8 +209,8 @@ main .menu .entree .menu-wrapper .first .container_left .desc p, main .menu .pla
 
 main .menu .entree .menu-wrapper .first .container_left .desc span, main .menu .plat .menu-wrapper .first .container_left .desc span, main .menu .dessert .menu-wrapper .first .container_left .desc span, main .menu .entree .menu-wrapper .second .container_left .desc span, main .menu .plat .menu-wrapper .second .container_left .desc span, main .menu .dessert .menu-wrapper .second .container_left .desc span, main .menu .entree .menu-wrapper .third .container_left .desc span, main .menu .plat .menu-wrapper .third .container_left .desc span, main .menu .dessert .menu-wrapper .third .container_left .desc span, main .menu .entree .menu-wrapper .forth .container_left .desc span, main .menu .plat .menu-wrapper .forth .container_left .desc span, main .menu .dessert .menu-wrapper .forth .container_left .desc span {
   display: block;
-  font-family: "riboto-black";
-  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
   margin-right: 25px;
   margin-left: 15px;
 }
@@ -284,25 +284,26 @@ main .menu .dessert {
           animation: progress 1.5s 2.6s forwards;
 }
 
-main .button {
+main .button a{
+  display: block;
   width: 45%;
   height: 60px;
   max-width:400px;
-  background-color: #FF79DA;
+  color:white;
   margin: 55px auto;
   text-align: center;
   line-height: 60px;
   border-radius: 40px;
-  font-family: "riboto-black";
+  font-family: 'Roboto', sans-serif;
   /* background: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC)); */
-  background: linear-gradient(180deg, #FF79DA, #9356DC);
-  color: white;
+  background: linear-gradient(180deg, #FF79DA, #9356DC); 
+  
   font-size: 18px;
   /* -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); */
-          box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-main .button:hover {
+main .button a:hover {
   /* background: -webkit-gradient(linear, left top, left bottom, from(#fface8), to(#ae80e5)); */
   background: linear-gradient(180deg, #fface8, #ae80e5);
   /* -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6); */

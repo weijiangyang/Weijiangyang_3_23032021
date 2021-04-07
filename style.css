@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: "Roboto-black";
   src: url(https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap);
 }
@@ -16,7 +16,7 @@
 @font-face {
   font-family: "Roboto-thin";
   src: url(https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap);
-}
+} */
 
 a {
   text-decoration: none;
@@ -28,7 +28,7 @@ body {
 }
 
 header h1 {
-  font-family: shrikhand;
+  font-family: 'Shrikhand', cursive;
   width: 100%;
   text-align: center;
   font-size: 30px;
@@ -52,7 +52,8 @@ header h1 {
   padding-top: 20px;
   padding-bottom: 20px;
   font-size: 18px;
-  font-family: "roboto-medium";
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
   /* background: -webkit-gradient(linear, left top, left bottom, from(#ECECEC), color-stop(2%), color-stop(#D0D0D0), color-stop(6%), to(#EAEAEA)); */
   background: linear-gradient(180deg, #ECECEC, 2%, #D0D0D0, 6%, #EAEAEA);
   margin-bottom: 45px;
@@ -63,7 +64,8 @@ header h1 {
 }
 
 .rechercher h2 {
-  font-family: 'roboto-bold';
+  font-family:'Roboto', sans-serif;
+  font-weight:800;
   font-size: 25px;
   line-height: 35px;
   width: 70%;
@@ -71,7 +73,8 @@ header h1 {
 }
 
 .rechercher p.desc {
-  font-family: 'Roboto-thin';
+  font-family: 'Roboto', sans-serif;
+  font-weight:400;
   font-size: 18px;
   line-height: 28px;
   margin: 10px auto 18px;
@@ -152,15 +155,16 @@ div.fonctionnement .choisir .choix-rest i, div.fonctionnement .choisir div.compo
   position: absolute;
   left: 32px;
   top: 22px;
-  font-size: 22px;
+  font-size: 18px;
 }
 
 div.fonctionnement .choisir .choix-rest p, div.fonctionnement .choisir div.compose-menu p, div.fonctionnement .choisir div.diguiste p {
   position: absolute;
   left: 65px;
   top: 22px;
-  font-family: 'roboto-bold';
-  font-size: 18px;
+  font-family:"Roboto-black",sans-serif;
+  font-weight: 500;
+  font-size: 16px;
 }
 
 @media (min-width: 980px) {

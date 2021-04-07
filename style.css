@@ -118,10 +118,10 @@ div.fonctionnement .choisir .choix-rest, div.fonctionnement .choisir div.compose
   width: 100%;
   max-width: 600px;
   height: 20px;
-  background-color: red;
+  
   background-color: #f6f6f6;
   /* -webkit-box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3); */
-          box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
   border-radius: 15px;
   /* display: -webkit-box; */
   /* display: -ms-flexbox; */
@@ -129,6 +129,9 @@ div.fonctionnement .choisir .choix-rest, div.fonctionnement .choisir div.compose
   height: 60px;
   position: relative;
   margin: 25px auto;
+}
+div.fonctionnement .choisir div.diguiste.active{
+  background-color: #F5EDFF;
 }
 
 div.fonctionnement .choisir .choix-rest span, div.fonctionnement .choisir div.compose-menu span, div.fonctionnement .choisir div.diguiste span {
@@ -200,7 +203,15 @@ div.restaurant .field-set .image {
   border-radius: 15px 15px 0 0;
   overflow: hidden;
   /* -webkit-box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3); */
-          box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
+}  
+div.restaurant .field-set .image p{
+  padding:20px;
+  text-align: center;
+  background-color:#99E2D0 ;
+  position:absolute;
+  right:25px;
+  top:25px;
 }
 
 div.restaurant .field-set .image::before {

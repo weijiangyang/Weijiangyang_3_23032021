@@ -4,24 +4,7 @@ $color-tertiary:#99E2D0;
 
 @import "./dic/mixins.scss";
 
-@font-face{
-    font-family:"Roboto-black";
-    src:url(https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap);
-}
-@font-face{
-    font-family: "Roboto-regular";
-    src:url(https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap);
-}
 
-@font-face{
-    font-family: "Roboto-medium";
-    src:url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);
-}
-
-@font-face{
-    font-family: "Roboto-thin";
-    src:url(https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap)
-}
 
 a{
     text-decoration: none;
@@ -102,8 +85,8 @@ main{
                 width: 90%;
                 margin:15px auto;
                 text-transform: uppercase;
-                font-family: 'Roboto-thin';
-                font-weight: 100;
+                font-family:'Roboto', sans-serif;
+                font-weight: 400;
                 font-size: 18px;
                 
                 span{
@@ -134,7 +117,7 @@ main{
                         border-radius: 15px;
                         h4{
                             width: 95%;
-                            font-family: "riboto-black";
+                            font-family:'Roboto', sans-serif ;
                             margin-bottom: 10px;
                             font-size: 18px;
                             white-space: nowrap;
@@ -149,7 +132,7 @@ main{
                             justify-content: space-between;
                     
                             p{
-                                font-family: "roboto-regular";
+                                font-family: 'Roboto', sans-serif;
                                 font-size: 16px;
                                 white-space: nowrap;
                                 text-overflow: ellipsis;
@@ -158,7 +141,7 @@ main{
                             } 
                             span{
                                 display:block;
-                                font-family: "riboto-black";
+                                font-family: 'Roboto', sans-serif;
                                 font-size: 16px;
                                 margin-right:25px;
                                 margin-left:15px;
@@ -249,7 +232,8 @@ main{
                
         }
     }
-    .button{
+    .button a{
+        display:block;
         width: 45%;
         height: 60px;
         background-color:$color-secondary;
@@ -257,7 +241,7 @@ main{
         text-align: center;
         line-height: 60px;
         border-radius: 40px;
-        font-family: "riboto-black";
+        font-family: 'Roboto', sans-serif;
         background:linear-gradient(180deg,$color-secondary,$color-primary);
         color:white;
         font-size: 18px;
@@ -309,7 +293,7 @@ footer{
     ul{
         width: 90%;
         margin:0 auto;
-        font-family: 'Roboto-medium', sans-serif;
+        font-family: 'Roboto', sans-serif;
 
         font-size: 18px;
         li{
